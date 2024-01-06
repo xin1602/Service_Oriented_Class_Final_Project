@@ -7,7 +7,7 @@
 #### 一、使用工具
 1. python：資料提取(取用API、網路爬蟲)、資料清洗、selenium自動化
 2. Docker：OpenMetadata、Airflow、Metabase 安裝部署
-3. OpenMetadata：資料發現、資料沿襲、資料品質、可觀察性、治理和團隊協作的一體化平台
+3. OpenMetadata：資料發現、資料沿襲、資料品質、可觀察性、治理和團隊協作
 4. Airflow：創建、排程、監控多個不同工作流
 5. Metabase：數據分析儀表板
 6. PowerBI：地圖視覺化呈現
