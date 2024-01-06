@@ -1,0 +1,68 @@
+[2023-12-18T19:35:20.551+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: traffic_etl.traffic_etl manual__2023-12-18T19:35:19.205641+00:00 [queued]>
+[2023-12-18T19:35:20.559+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: traffic_etl.traffic_etl manual__2023-12-18T19:35:19.205641+00:00 [queued]>
+[2023-12-18T19:35:20.560+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-18T19:35:20.571+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): traffic_etl> on 2023-12-18 19:35:19.205641+00:00
+[2023-12-18T19:35:20.579+0000] {standard_task_runner.py:57} INFO - Started process 1307 to run task
+[2023-12-18T19:35:20.582+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'traffic_etl', 'traffic_etl', 'manual__2023-12-18T19:35:19.205641+00:00', '--job-id', '258', '--raw', '--subdir', 'DAGS_FOLDER/traffic_ETL.py', '--cfg-path', '/tmp/tmpd2_06se0']
+[2023-12-18T19:35:20.585+0000] {standard_task_runner.py:85} INFO - Job 258: Subtask traffic_etl
+[2023-12-18T19:35:20.623+0000] {task_command.py:416} INFO - Running <TaskInstance: traffic_etl.traffic_etl manual__2023-12-18T19:35:19.205641+00:00 [running]> on host 8833c94e6466
+[2023-12-18T19:35:20.844+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='traffic_etl' AIRFLOW_CTX_TASK_ID='traffic_etl' AIRFLOW_CTX_EXECUTION_DATE='2023-12-18T19:35:19.205641+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-18T19:35:19.205641+00:00'
+[2023-12-18T19:35:22.791+0000] {logging_mixin.py:154} INFO - Data loaded from /opt/***/dags/data/traffic111.csv
+[2023-12-18T19:35:22.840+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_ETL.py:76: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc['日期'] = df_loc['日期'].astype('str')
+
+[2023-12-18T19:35:22.848+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_ETL.py:77: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc['日期'] = pd.to_datetime(df_loc['日期'], format='%Y%m%d')
+
+[2023-12-18T19:35:22.866+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_ETL.py:78: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc[['年', '月', '日']] = df_loc['日期'].dt.strftime('%Y-%m-%d').str.split('-', expand=True)
+
+[2023-12-18T19:35:22.867+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_ETL.py:78: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc[['年', '月', '日']] = df_loc['日期'].dt.strftime('%Y-%m-%d').str.split('-', expand=True)
+
+[2023-12-18T19:35:22.868+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_ETL.py:78: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc[['年', '月', '日']] = df_loc['日期'].dt.strftime('%Y-%m-%d').str.split('-', expand=True)
+
+[2023-12-18T19:35:22.884+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/traffic_ETL.py", line 97, in traffic_etl
+    df_loc.to_csv('D:/Airflow-docker/dags/data/traffic_ETL.csv', index=False, encoding='UTF-8')
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/formats/format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 240, in save
+    with get_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'D:/Airflow-docker/dags/data'
+[2023-12-18T19:35:22.900+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=traffic_etl, task_id=traffic_etl, execution_date=20231218T193519, start_date=20231218T193520, end_date=20231218T193522
+[2023-12-18T19:35:22.910+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 258 for task traffic_etl (Cannot save file into a non-existent directory: 'D:/Airflow-docker/dags/data'; 1307)
+[2023-12-18T19:35:22.928+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-18T19:35:22.945+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

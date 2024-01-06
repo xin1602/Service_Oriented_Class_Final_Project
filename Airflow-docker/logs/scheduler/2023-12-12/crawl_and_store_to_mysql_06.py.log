@@ -1,0 +1,372 @@
+[2023-12-12T15:36:53.376+0000] {processor.py:157} INFO - Started process (PID=40630) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:36:53.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:36:53.379+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:36:53.579+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:36:53.643+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.643+0000] {manager.py:502} ERROR - Creation of Permission View Error: %s
+[2023-12-12T15:36:53.650+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.650+0000] {manager.py:502} ERROR - Creation of Permission View Error: %s
+[2023-12-12T15:36:53.657+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.657+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:36:53.667+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.666+0000] {dag.py:2963} INFO - Creating ORM DAG for crawl_and_store_to_mysql_06
+[2023-12-12T15:36:53.675+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.675+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-11T15:36:53.675262+00:00, run_after=2023-12-12T15:36:53.675262+00:00
+[2023-12-12T15:36:53.761+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.758+0000] {dagbag.py:644} ERROR - Failed to write serialized DAG: /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 633, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 147, in write_dag
+    if session.scalar(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(crawl_and_store_to_mysql_06) already exists.
+
+[SQL: INSERT INTO dag (dag_id, root_dag_id, is_paused, is_subdag, is_active, last_parsed_time, last_pickled, last_expired, scheduler_lock, pickle_id, fileloc, processor_subdir, owners, description, default_view, schedule_interval, timetable_description, max_active_tasks, max_active_runs, has_task_concurrency_limits, has_import_errors, next_dagrun, next_dagrun_data_interval_start, next_dagrun_data_interval_end, next_dagrun_create_after) VALUES (%(dag_id)s, %(root_dag_id)s, %(is_paused)s, %(is_subdag)s, %(is_active)s, %(last_parsed_time)s, %(last_pickled)s, %(last_expired)s, %(scheduler_lock)s, %(pickle_id)s, %(fileloc)s, %(processor_subdir)s, %(owners)s, %(description)s, %(default_view)s, %(schedule_interval)s, %(timetable_description)s, %(max_active_tasks)s, %(max_active_runs)s, %(has_task_concurrency_limits)s, %(has_import_errors)s, %(next_dagrun)s, %(next_dagrun_data_interval_start)s, %(next_dagrun_data_interval_end)s, %(next_dagrun_create_after)s)]
+[parameters: {'dag_id': 'crawl_and_store_to_mysql_06', 'root_dag_id': None, 'is_paused': True, 'is_subdag': False, 'is_active': True, 'last_parsed_time': datetime.datetime(2023, 12, 12, 15, 36, 53, 675179, tzinfo=Timezone('UTC')), 'last_pickled': None, 'last_expired': None, 'scheduler_lock': None, 'pickle_id': None, 'fileloc': '/opt/airflow/dags/crawl_and_store_to_mysql_06.py', 'processor_subdir': '/opt/airflow/dags', 'owners': 'xin', 'description': 'A DAG to crawl data, store in CSV, and then store in MySQL', 'default_view': 'grid', 'schedule_interval': '{"type": "timedelta", "attrs": {"days": 1, "seconds": 0, "microseconds": 0}}', 'timetable_description': '', 'max_active_tasks': 16, 'max_active_runs': 16, 'has_task_concurrency_limits': False, 'has_import_errors': False, 'next_dagrun': DateTime(2023, 12, 11, 15, 36, 53, 675262, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_start': DateTime(2023, 12, 11, 15, 36, 53, 675262, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_end': DateTime(2023, 12, 12, 15, 36, 53, 675262, tzinfo=Timezone('UTC')), 'next_dagrun_create_after': DateTime(2023, 12, 12, 15, 36, 53, 675262, tzinfo=Timezone('UTC'))}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2023-12-12T15:36:53.762+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:36:53.761+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:36:53.762+0000] {processor.py:182} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 178, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 159, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 857, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 893, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 654, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 668, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2953, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(crawl_and_store_to_mysql_06) already exists.
+
+[SQL: INSERT INTO dag (dag_id, root_dag_id, is_paused, is_subdag, is_active, last_parsed_time, last_pickled, last_expired, scheduler_lock, pickle_id, fileloc, processor_subdir, owners, description, default_view, schedule_interval, timetable_description, max_active_tasks, max_active_runs, has_task_concurrency_limits, has_import_errors, next_dagrun, next_dagrun_data_interval_start, next_dagrun_data_interval_end, next_dagrun_create_after) VALUES (%(dag_id)s, %(root_dag_id)s, %(is_paused)s, %(is_subdag)s, %(is_active)s, %(last_parsed_time)s, %(last_pickled)s, %(last_expired)s, %(scheduler_lock)s, %(pickle_id)s, %(fileloc)s, %(processor_subdir)s, %(owners)s, %(description)s, %(default_view)s, %(schedule_interval)s, %(timetable_description)s, %(max_active_tasks)s, %(max_active_runs)s, %(has_task_concurrency_limits)s, %(has_import_errors)s, %(next_dagrun)s, %(next_dagrun_data_interval_start)s, %(next_dagrun_data_interval_end)s, %(next_dagrun_create_after)s)]
+[parameters: {'dag_id': 'crawl_and_store_to_mysql_06', 'root_dag_id': None, 'is_paused': True, 'is_subdag': False, 'is_active': True, 'last_parsed_time': datetime.datetime(2023, 12, 12, 15, 36, 53, 675179, tzinfo=Timezone('UTC')), 'last_pickled': None, 'last_expired': None, 'scheduler_lock': None, 'pickle_id': None, 'fileloc': '/opt/airflow/dags/crawl_and_store_to_mysql_06.py', 'processor_subdir': '/opt/airflow/dags', 'owners': 'xin', 'description': 'A DAG to crawl data, store in CSV, and then store in MySQL', 'default_view': 'grid', 'schedule_interval': '{"type": "timedelta", "attrs": {"days": 1, "seconds": 0, "microseconds": 0}}', 'timetable_description': '', 'max_active_tasks': 16, 'max_active_runs': 16, 'has_task_concurrency_limits': False, 'has_import_errors': False, 'next_dagrun': DateTime(2023, 12, 11, 15, 36, 53, 675262, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_start': DateTime(2023, 12, 11, 15, 36, 53, 675262, tzinfo=Timezone('UTC')), 'next_dagrun_data_interval_end': DateTime(2023, 12, 12, 15, 36, 53, 675262, tzinfo=Timezone('UTC')), 'next_dagrun_create_after': DateTime(2023, 12, 12, 15, 36, 53, 675262, tzinfo=Timezone('UTC'))}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2023-12-12T15:37:24.520+0000] {processor.py:157} INFO - Started process (PID=40695) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:37:24.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:37:24.522+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:37:24.522+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:37:24.826+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:37:24.917+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:37:24.916+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:37:24.941+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:37:24.941+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-11T15:37:24.941245+00:00, run_after=2023-12-12T15:37:24.941245+00:00
+[2023-12-12T15:37:24.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.446 seconds
+[2023-12-12T15:38:22.648+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:38:22.649+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:38:22.651+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:38:22.651+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:38:22.776+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:38:22.787+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:38:22.786+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:38:22.808+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:38:22.808+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-11T15:38:22.808266+00:00, run_after=2023-12-12T15:38:22.808266+00:00
+[2023-12-12T15:38:22.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.182 seconds
+[2023-12-12T15:38:53.391+0000] {processor.py:157} INFO - Started process (PID=113) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:38:53.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:38:53.396+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:38:53.396+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:38:53.494+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:38:53.565+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:38:53.564+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:38:53.579+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:38:53.579+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:38:53.596+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.208 seconds
+[2023-12-12T15:39:23.796+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:39:23.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:39:23.799+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:39:23.799+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:39:23.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:39:23.900+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:39:23.899+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:39:23.920+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:39:23.920+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:39:23.936+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.142 seconds
+[2023-12-12T15:39:54.105+0000] {processor.py:157} INFO - Started process (PID=243) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:39:54.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:39:54.108+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:39:54.108+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:39:54.187+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:39:54.256+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:39:54.255+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:39:54.319+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:39:54.319+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:39:54.335+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.232 seconds
+[2023-12-12T15:40:24.917+0000] {processor.py:157} INFO - Started process (PID=308) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:40:24.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:40:24.924+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:40:24.924+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:40:25.024+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:40:25.032+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:40:25.032+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:40:25.048+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:40:25.048+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:40:25.062+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.148 seconds
+[2023-12-12T15:40:55.175+0000] {processor.py:157} INFO - Started process (PID=373) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:40:55.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:40:55.179+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:40:55.179+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:40:55.271+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:40:55.343+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:40:55.343+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:40:55.357+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:40:55.357+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:40:55.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.305 seconds
+[2023-12-12T15:41:25.758+0000] {processor.py:157} INFO - Started process (PID=439) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:41:25.759+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:41:25.762+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:41:25.761+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:41:25.869+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:41:25.885+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:41:25.885+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:41:25.907+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:41:25.907+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:41:26.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.282 seconds
+[2023-12-12T15:41:56.144+0000] {processor.py:157} INFO - Started process (PID=504) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:41:56.145+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:41:56.149+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:41:56.148+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:41:56.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:41:56.295+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:41:56.294+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:41:56.527+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:41:56.527+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:41:56.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.403 seconds
+[2023-12-12T15:42:27.008+0000] {processor.py:157} INFO - Started process (PID=569) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:42:27.008+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:42:27.011+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:42:27.011+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:42:27.103+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:42:27.322+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:42:27.322+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:42:27.336+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:42:27.336+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:42:27.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.348 seconds
+[2023-12-12T15:42:57.814+0000] {processor.py:157} INFO - Started process (PID=634) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:42:57.815+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:42:57.818+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:42:57.818+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:42:57.918+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:42:57.935+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:42:57.935+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:42:57.954+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:42:57.953+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:42:57.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.162 seconds
+[2023-12-12T15:43:28.803+0000] {processor.py:157} INFO - Started process (PID=699) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:43:28.804+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:43:28.806+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:43:28.806+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:43:28.899+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:43:28.916+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:43:28.915+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:43:29.035+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:43:29.034+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:43:29.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.249 seconds
+[2023-12-12T15:43:59.767+0000] {processor.py:157} INFO - Started process (PID=765) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:43:59.768+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:43:59.770+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:43:59.770+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:43:59.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:43:59.866+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:43:59.865+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:43:59.882+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:43:59.882+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:43:59.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.133 seconds
+[2023-12-12T15:44:30.691+0000] {processor.py:157} INFO - Started process (PID=830) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:44:30.692+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:44:30.694+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:44:30.694+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:44:30.780+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:44:30.795+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:44:30.794+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:44:30.812+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:44:30.812+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:44:30.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.139 seconds
+[2023-12-12T15:45:01.644+0000] {processor.py:157} INFO - Started process (PID=895) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:45:01.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:45:01.647+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:45:01.647+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:45:01.730+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:45:01.743+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:45:01.743+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:45:01.757+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:45:01.757+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:45:01.770+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.129 seconds
+[2023-12-12T15:45:32.209+0000] {processor.py:157} INFO - Started process (PID=960) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:45:32.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:45:32.216+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:45:32.214+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:45:32.441+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:45:32.455+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:45:32.454+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:45:32.472+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:45:32.472+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:45:32.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.284 seconds
+[2023-12-12T15:46:03.328+0000] {processor.py:157} INFO - Started process (PID=1026) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:46:03.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:46:03.332+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:46:03.331+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:46:03.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:46:03.637+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:46:03.636+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:46:03.718+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:46:03.718+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:46:03.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.411 seconds
+[2023-12-12T15:46:33.979+0000] {processor.py:157} INFO - Started process (PID=1091) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:46:33.980+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:46:33.982+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:46:33.982+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:46:34.185+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:46:34.199+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:46:34.198+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:46:34.213+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:46:34.213+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:46:34.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.252 seconds
+[2023-12-12T15:47:04.765+0000] {processor.py:157} INFO - Started process (PID=1156) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:47:04.766+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:47:04.768+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:47:04.768+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:47:04.991+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:47:05.004+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:47:05.004+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:47:05.018+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:47:05.018+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:47:05.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.269 seconds
+[2023-12-12T15:47:35.290+0000] {processor.py:157} INFO - Started process (PID=1221) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:47:35.291+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:47:35.292+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:47:35.292+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:47:35.487+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:47:35.499+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:47:35.499+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:47:35.556+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:47:35.555+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:47:35.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.282 seconds
+[2023-12-12T15:48:06.324+0000] {processor.py:157} INFO - Started process (PID=1286) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:48:06.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:48:06.327+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:48:06.327+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:48:06.549+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:48:06.561+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:48:06.560+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:48:06.575+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:48:06.575+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:48:06.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.267 seconds
+[2023-12-12T15:48:36.688+0000] {processor.py:157} INFO - Started process (PID=1351) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:48:36.689+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:48:36.690+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:48:36.690+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:48:36.881+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:48:36.895+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:48:36.895+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:48:36.909+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:48:36.909+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:48:36.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.239 seconds
+[2023-12-12T15:49:07.126+0000] {processor.py:157} INFO - Started process (PID=1416) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:49:07.127+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:49:07.129+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:49:07.129+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:49:07.326+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:49:07.340+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:49:07.339+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:49:07.354+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:49:07.354+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:49:07.372+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.249 seconds
+[2023-12-12T15:49:37.564+0000] {processor.py:157} INFO - Started process (PID=1481) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:49:37.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:49:37.567+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:49:37.566+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:49:37.759+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:49:37.771+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:49:37.771+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:49:37.880+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:49:37.880+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:49:37.897+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.336 seconds
+[2023-12-12T15:50:08.557+0000] {processor.py:157} INFO - Started process (PID=1546) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:50:08.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:50:08.560+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:50:08.559+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:50:08.754+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:50:08.766+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:50:08.766+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:50:08.798+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:50:08.798+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:50:08.812+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.258 seconds
+[2023-12-12T15:50:39.077+0000] {processor.py:157} INFO - Started process (PID=1611) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:50:39.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:50:39.080+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:50:39.080+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:50:39.272+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:50:39.285+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:50:39.284+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:50:39.299+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:50:39.299+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:50:39.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.238 seconds
+[2023-12-12T15:51:09.790+0000] {processor.py:157} INFO - Started process (PID=1676) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:51:09.791+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:51:09.794+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:51:09.794+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:51:09.981+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:51:09.993+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:51:09.993+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:51:10.119+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:51:10.118+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:51:10.131+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.344 seconds
+[2023-12-12T15:51:40.274+0000] {processor.py:157} INFO - Started process (PID=1741) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:51:40.275+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:51:40.277+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:51:40.277+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:51:40.359+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:51:40.375+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:51:40.374+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:51:40.392+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:51:40.392+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:51:40.409+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.138 seconds
+[2023-12-12T15:52:10.764+0000] {processor.py:157} INFO - Started process (PID=1807) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:52:10.764+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:52:10.765+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:52:10.765+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:52:10.854+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:52:10.868+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:52:10.868+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:52:10.884+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:52:10.884+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:52:10.900+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.141 seconds
+[2023-12-12T15:52:41.022+0000] {processor.py:157} INFO - Started process (PID=1871) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:52:41.024+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:52:41.025+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:52:41.025+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:52:41.123+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:52:41.137+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:52:41.137+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:52:41.153+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:52:41.153+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:52:41.168+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.149 seconds
+[2023-12-12T15:53:11.497+0000] {processor.py:157} INFO - Started process (PID=1935) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:53:11.498+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:53:11.500+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:53:11.499+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:53:11.587+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:53:11.603+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:53:11.602+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:53:11.619+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:53:11.618+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:53:11.636+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.141 seconds
+[2023-12-12T15:53:42.059+0000] {processor.py:157} INFO - Started process (PID=2000) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:53:42.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:53:42.063+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:53:42.062+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:53:42.172+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:53:42.187+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:53:42.186+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:53:42.204+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:53:42.204+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:53:42.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.166 seconds
+[2023-12-12T15:54:12.312+0000] {processor.py:157} INFO - Started process (PID=2065) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:54:12.313+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:54:12.314+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:54:12.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:54:12.404+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:54:12.417+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:54:12.417+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:54:12.432+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:54:12.432+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:54:12.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.137 seconds
+[2023-12-12T15:54:42.845+0000] {processor.py:157} INFO - Started process (PID=2131) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:54:42.847+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:54:42.848+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:54:42.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:54:42.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:54:42.967+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:54:42.967+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:54:43.075+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:54:43.075+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:54:43.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.247 seconds
+[2023-12-12T15:55:13.599+0000] {processor.py:157} INFO - Started process (PID=2198) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:55:13.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:55:13.601+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:55:13.601+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:55:13.699+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:55:13.714+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:55:13.713+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:55:13.730+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:55:13.730+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:55:13.745+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.150 seconds
+[2023-12-12T15:55:43.845+0000] {processor.py:157} INFO - Started process (PID=2263) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:55:43.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:55:43.847+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:55:43.847+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:55:43.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:55:43.964+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:55:43.963+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:55:43.979+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:55:43.978+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:55:43.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.154 seconds
+[2023-12-12T15:56:14.888+0000] {processor.py:157} INFO - Started process (PID=2328) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:56:14.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:56:14.891+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:56:14.890+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:56:14.986+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:56:15.000+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:56:15.000+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:56:15.016+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:56:15.015+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:56:15.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.144 seconds
+[2023-12-12T15:56:45.294+0000] {processor.py:157} INFO - Started process (PID=2393) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:56:45.295+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:56:45.297+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:56:45.296+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:56:45.397+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:56:45.412+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:56:45.412+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:56:45.428+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:56:45.428+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:56:45.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.155 seconds
+[2023-12-12T15:57:15.856+0000] {processor.py:157} INFO - Started process (PID=2458) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:57:15.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:57:15.858+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:57:15.858+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:57:15.968+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:57:15.985+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:57:15.985+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:57:16.002+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:57:16.002+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:57:16.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.164 seconds
+[2023-12-12T15:57:46.114+0000] {processor.py:157} INFO - Started process (PID=2523) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:57:46.116+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:57:46.118+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:57:46.117+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:57:46.337+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:57:46.377+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:57:46.376+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:57:46.403+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:57:46.403+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-12T15:38:22.808266+00:00, run_after=2023-12-13T15:38:22.808266+00:00
+[2023-12-12T15:57:46.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.312 seconds
+[2023-12-12T15:58:16.920+0000] {processor.py:157} INFO - Started process (PID=2595) to work on /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:58:16.921+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/crawl_and_store_to_mysql_06.py for tasks to queue
+[2023-12-12T15:58:16.923+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:58:16.923+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:58:17.031+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql_06']) retrieved from /opt/airflow/dags/crawl_and_store_to_mysql_06.py
+[2023-12-12T15:58:17.108+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:58:17.108+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-12T15:58:17.117+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:58:17.116+0000] {dag.py:2963} INFO - Creating ORM DAG for crawl_and_store_to_mysql_06
+[2023-12-12T15:58:17.126+0000] {logging_mixin.py:154} INFO - [2023-12-12T15:58:17.125+0000] {dag.py:3722} INFO - Setting next_dagrun for crawl_and_store_to_mysql_06 to 2023-12-11T15:58:17.125675+00:00, run_after=2023-12-12T15:58:17.125675+00:00
+[2023-12-12T15:58:17.142+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/crawl_and_store_to_mysql_06.py took 0.225 seconds

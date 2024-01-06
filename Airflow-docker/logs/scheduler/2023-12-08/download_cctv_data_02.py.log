@@ -1,0 +1,420 @@
+[2023-12-08T03:25:07.714+0000] {processor.py:157} INFO - Started process (PID=23737) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T03:25:07.727+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T03:25:07.734+0000] {logging_mixin.py:154} INFO - [2023-12-08T03:25:07.733+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T03:25:08.427+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T03:25:08.452+0000] {logging_mixin.py:154} INFO - [2023-12-08T03:25:08.451+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T03:25:08.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 1.176 seconds
+[2023-12-08T07:27:39.468+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:27:39.471+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:27:39.474+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:27:39.474+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:27:39.592+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:27:39.604+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:27:39.604+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:27:39.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.174 seconds
+[2023-12-08T07:28:09.853+0000] {processor.py:157} INFO - Started process (PID=103) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:28:09.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:28:09.858+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:09.857+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:28:10.064+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:28:10.349+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:10.348+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:28:10.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.547 seconds
+[2023-12-08T07:28:40.549+0000] {processor.py:157} INFO - Started process (PID=164) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:28:40.551+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:28:40.554+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:40.553+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:28:40.694+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:28:40.710+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:40.710+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:28:40.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.215 seconds
+[2023-12-08T07:29:10.845+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:29:10.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:29:10.871+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:10.870+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:29:11.024+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:29:11.134+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:11.133+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:29:11.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.340 seconds
+[2023-12-08T07:29:41.730+0000] {processor.py:157} INFO - Started process (PID=280) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:29:41.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:29:41.734+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:41.734+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:29:41.871+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:29:41.908+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:41.907+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:29:41.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.231 seconds
+[2023-12-08T07:30:12.260+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:30:12.261+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:30:12.265+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:12.264+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:30:12.452+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:30:12.573+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:12.573+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:30:12.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.558 seconds
+[2023-12-08T07:30:42.945+0000] {processor.py:157} INFO - Started process (PID=398) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:30:42.947+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:30:42.953+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:42.952+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:30:43.123+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:30:43.147+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:43.146+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:30:43.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.413 seconds
+[2023-12-08T07:31:14.148+0000] {processor.py:157} INFO - Started process (PID=457) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:31:14.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:31:14.155+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:14.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:31:14.309+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:31:14.447+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:14.447+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:31:14.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.519 seconds
+[2023-12-08T07:31:44.779+0000] {processor.py:157} INFO - Started process (PID=516) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:31:44.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:31:44.785+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:44.785+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:31:44.943+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:31:44.968+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:44.967+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:31:45.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.247 seconds
+[2023-12-08T07:32:15.608+0000] {processor.py:157} INFO - Started process (PID=575) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:32:15.610+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:32:15.613+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:15.613+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:32:15.793+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:32:16.111+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:16.111+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:32:16.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.554 seconds
+[2023-12-08T07:32:46.572+0000] {processor.py:157} INFO - Started process (PID=634) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:32:46.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:32:46.577+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:46.576+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:32:46.781+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:32:46.798+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:46.797+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:32:46.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.287 seconds
+[2023-12-08T07:33:17.262+0000] {processor.py:157} INFO - Started process (PID=693) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:33:17.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:33:17.267+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:17.266+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:33:17.537+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:33:17.859+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:17.858+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:33:17.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.656 seconds
+[2023-12-08T07:33:48.290+0000] {processor.py:157} INFO - Started process (PID=754) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:33:48.292+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:33:48.295+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:48.295+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:33:48.498+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:33:48.514+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:48.513+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:33:48.564+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.279 seconds
+[2023-12-08T07:34:19.210+0000] {processor.py:157} INFO - Started process (PID=812) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:34:19.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:34:19.214+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:19.214+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:34:19.404+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:34:19.875+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:19.874+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:34:19.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.788 seconds
+[2023-12-08T07:34:50.558+0000] {processor.py:157} INFO - Started process (PID=871) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:34:50.559+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:34:50.563+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:50.563+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:34:50.728+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:34:50.750+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:50.750+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:34:50.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.251 seconds
+[2023-12-08T07:35:21.443+0000] {processor.py:157} INFO - Started process (PID=930) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:35:21.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:35:21.450+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:21.450+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:35:21.652+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:35:21.967+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:21.967+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:35:22.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.583 seconds
+[2023-12-08T07:35:52.165+0000] {processor.py:157} INFO - Started process (PID=990) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:35:52.166+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:35:52.169+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:52.168+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:35:52.334+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:35:52.358+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:52.358+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:35:52.423+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.263 seconds
+[2023-12-08T07:36:22.731+0000] {processor.py:157} INFO - Started process (PID=1049) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:36:22.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:36:22.736+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:22.736+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:36:22.895+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:36:23.207+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:23.207+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:36:23.254+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.529 seconds
+[2023-12-08T07:36:53.689+0000] {processor.py:157} INFO - Started process (PID=1107) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:36:53.691+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:36:53.694+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:53.694+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:36:53.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:36:54.056+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:54.055+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:36:54.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.425 seconds
+[2023-12-08T07:37:24.226+0000] {processor.py:157} INFO - Started process (PID=1165) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:37:24.228+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:37:24.231+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:24.231+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:37:24.610+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:37:24.755+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:24.754+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:37:24.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.639 seconds
+[2023-12-08T07:37:55.856+0000] {processor.py:157} INFO - Started process (PID=1225) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:37:55.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:37:55.861+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:55.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:37:56.027+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:37:56.072+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:56.072+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:37:56.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.426 seconds
+[2023-12-08T07:38:27.097+0000] {processor.py:157} INFO - Started process (PID=1284) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:38:27.099+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:38:27.102+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:27.101+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:38:27.318+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:38:27.615+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:27.615+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:38:27.669+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.576 seconds
+[2023-12-08T07:38:58.325+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:38:58.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:38:58.330+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:58.330+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:38:58.565+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:38:58.620+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:58.618+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:38:58.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.593 seconds
+[2023-12-08T07:39:29.014+0000] {processor.py:157} INFO - Started process (PID=1402) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:39:29.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:39:29.020+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:29.019+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:39:29.354+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:39:29.475+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:29.474+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:39:29.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.529 seconds
+[2023-12-08T07:39:59.779+0000] {processor.py:157} INFO - Started process (PID=1461) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:39:59.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:39:59.784+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:59.784+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:40:00.240+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:40:00.267+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:00.265+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:40:00.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.557 seconds
+[2023-12-08T07:40:31.199+0000] {processor.py:157} INFO - Started process (PID=1527) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:40:31.200+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:40:31.203+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:31.203+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:40:31.572+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:40:31.689+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:31.688+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:40:31.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.547 seconds
+[2023-12-08T07:41:02.017+0000] {processor.py:157} INFO - Started process (PID=1586) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:41:02.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:41:02.022+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:02.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:41:02.514+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:41:02.554+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:02.553+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:41:02.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.882 seconds
+[2023-12-08T07:41:33.566+0000] {processor.py:157} INFO - Started process (PID=1645) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:41:33.567+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:41:33.573+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:33.573+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:41:33.957+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:41:34.088+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:34.087+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:41:34.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.583 seconds
+[2023-12-08T07:42:04.228+0000] {processor.py:157} INFO - Started process (PID=1704) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:42:04.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:42:04.232+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:04.232+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:42:04.548+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:42:04.568+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:04.567+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:42:04.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.388 seconds
+[2023-12-08T07:42:35.183+0000] {processor.py:157} INFO - Started process (PID=1763) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:42:35.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:42:35.188+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:35.188+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:42:35.346+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:42:35.497+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:35.497+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:42:35.559+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.381 seconds
+[2023-12-08T07:43:06.053+0000] {processor.py:157} INFO - Started process (PID=1822) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:43:06.054+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:43:06.057+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:06.057+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:43:06.222+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:43:06.247+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:06.246+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:43:06.497+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.448 seconds
+[2023-12-08T07:43:37.496+0000] {processor.py:157} INFO - Started process (PID=1881) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:43:37.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:43:37.511+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:37.510+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:43:37.753+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:43:37.942+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:37.942+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:43:38.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.524 seconds
+[2023-12-08T07:44:08.204+0000] {processor.py:157} INFO - Started process (PID=1939) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:44:08.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:44:08.207+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:08.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:44:08.300+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:44:08.311+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:08.310+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:44:08.345+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.144 seconds
+[2023-12-08T07:44:38.626+0000] {processor.py:157} INFO - Started process (PID=1999) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:44:38.628+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:44:38.631+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:38.631+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:44:38.854+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:44:38.950+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:38.950+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:44:39.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.427 seconds
+[2023-12-08T07:45:09.143+0000] {processor.py:157} INFO - Started process (PID=2058) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:45:09.144+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:45:09.147+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:09.147+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:45:09.266+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:45:09.277+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:09.276+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:45:09.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.251 seconds
+[2023-12-08T07:45:39.459+0000] {processor.py:157} INFO - Started process (PID=2118) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:45:39.460+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:45:39.462+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:39.461+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:45:39.556+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:45:39.640+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:39.639+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:45:39.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.213 seconds
+[2023-12-08T07:46:10.051+0000] {processor.py:157} INFO - Started process (PID=2178) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:46:10.052+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:46:10.054+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:10.054+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:46:10.158+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:46:10.169+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:10.168+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:46:10.202+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.156 seconds
+[2023-12-08T07:46:40.324+0000] {processor.py:157} INFO - Started process (PID=2233) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:46:40.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:46:40.328+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:40.327+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:46:40.452+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:46:40.557+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:40.556+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:46:40.588+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.266 seconds
+[2023-12-08T07:47:10.768+0000] {processor.py:157} INFO - Started process (PID=2292) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:47:10.769+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:47:10.771+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:47:10.771+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:47:10.874+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:47:10.890+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:47:10.889+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:47:10.954+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.188 seconds
+[2023-12-08T07:47:41.907+0000] {processor.py:157} INFO - Started process (PID=2351) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:47:41.909+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:47:41.911+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:47:41.911+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:47:42.038+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:47:42.115+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:47:42.115+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:47:42.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.255 seconds
+[2023-12-08T07:48:13.018+0000] {processor.py:157} INFO - Started process (PID=2410) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:48:13.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:48:13.021+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:13.021+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:48:13.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:48:13.215+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:13.214+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:48:13.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.378 seconds
+[2023-12-08T07:48:44.104+0000] {processor.py:157} INFO - Started process (PID=2469) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:48:44.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:48:44.109+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:44.108+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:48:44.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:48:44.328+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:44.327+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:48:44.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.264 seconds
+[2023-12-08T07:49:14.475+0000] {processor.py:157} INFO - Started process (PID=2528) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:49:14.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:49:14.479+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:14.479+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:49:14.580+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:49:14.596+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:14.596+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:49:14.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.155 seconds
+[2023-12-08T07:49:44.850+0000] {processor.py:157} INFO - Started process (PID=2587) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:49:44.851+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:49:44.853+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:44.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:49:45.119+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:49:45.196+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:45.196+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:49:45.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.379 seconds
+[2023-12-08T07:50:15.965+0000] {processor.py:157} INFO - Started process (PID=2646) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:50:15.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:50:15.968+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:15.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:50:16.088+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:50:16.105+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:16.104+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:50:16.199+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.237 seconds
+[2023-12-08T07:50:46.569+0000] {processor.py:157} INFO - Started process (PID=2705) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:50:46.570+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:50:46.572+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:46.572+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:50:46.673+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:50:46.748+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:46.747+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:50:46.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.214 seconds
+[2023-12-08T07:51:16.985+0000] {processor.py:157} INFO - Started process (PID=2764) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:51:16.986+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:51:16.989+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:16.988+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:51:17.114+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:51:17.130+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:17.130+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:51:17.166+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.183 seconds
+[2023-12-08T07:51:48.152+0000] {processor.py:157} INFO - Started process (PID=2823) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:51:48.153+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:51:48.155+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:48.155+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:51:48.257+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:51:48.333+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:48.333+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:51:48.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.214 seconds
+[2023-12-08T07:52:18.557+0000] {processor.py:157} INFO - Started process (PID=2882) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:52:18.560+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:52:18.562+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:18.562+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:52:18.689+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:52:18.713+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:18.713+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:52:18.762+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.209 seconds
+[2023-12-08T07:52:49.105+0000] {processor.py:157} INFO - Started process (PID=2941) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:52:49.107+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:52:49.111+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:49.110+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:52:49.248+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:52:49.351+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:49.351+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:52:49.415+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.314 seconds
+[2023-12-08T07:53:20.293+0000] {processor.py:157} INFO - Started process (PID=3000) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:53:20.294+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:53:20.298+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:20.298+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:53:20.485+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:53:20.502+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:20.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:53:20.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.246 seconds
+[2023-12-08T07:53:50.671+0000] {processor.py:157} INFO - Started process (PID=3059) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:53:50.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:53:50.674+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:50.674+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:53:50.784+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:53:50.924+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:50.924+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:53:51.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.388 seconds
+[2023-12-08T07:54:21.254+0000] {processor.py:157} INFO - Started process (PID=3119) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:54:21.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:54:21.257+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:21.257+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:54:21.389+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:54:21.404+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:21.404+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:54:21.456+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.208 seconds
+[2023-12-08T07:54:51.593+0000] {processor.py:157} INFO - Started process (PID=3177) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:54:51.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:54:51.596+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:51.596+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:54:51.697+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:54:51.786+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:51.785+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:54:51.824+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.235 seconds
+[2023-12-08T07:55:21.952+0000] {processor.py:157} INFO - Started process (PID=3235) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:55:21.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:55:21.957+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:21.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:55:22.059+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:55:22.073+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:22.073+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:55:22.106+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.159 seconds
+[2023-12-08T07:55:52.333+0000] {processor.py:157} INFO - Started process (PID=3294) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:55:52.335+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:55:52.339+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:52.338+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:55:52.471+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:55:52.598+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:52.597+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:55:52.644+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.316 seconds
+[2023-12-08T07:56:22.748+0000] {processor.py:157} INFO - Started process (PID=3353) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:56:22.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:56:22.752+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:22.752+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:56:22.870+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:56:22.886+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:22.886+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:56:22.960+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.215 seconds
+[2023-12-08T07:56:53.726+0000] {processor.py:157} INFO - Started process (PID=3412) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:56:53.727+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:56:53.729+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:53.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:56:53.823+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:56:53.934+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:53.934+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:56:53.967+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.244 seconds
+[2023-12-08T07:57:24.388+0000] {processor.py:157} INFO - Started process (PID=3471) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:57:24.389+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:57:24.391+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:24.391+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:57:24.491+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:57:24.504+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:24.504+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:57:24.536+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.151 seconds
+[2023-12-08T07:57:54.851+0000] {processor.py:157} INFO - Started process (PID=3530) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:57:54.852+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:57:54.855+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:54.854+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:57:55.041+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:57:55.125+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:55.124+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:57:55.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.308 seconds
+[2023-12-08T07:58:25.310+0000] {processor.py:157} INFO - Started process (PID=3589) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:58:25.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:58:25.313+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:25.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:58:25.485+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:58:25.502+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:25.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:58:25.564+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.257 seconds
+[2023-12-08T07:58:55.835+0000] {processor.py:157} INFO - Started process (PID=3648) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:58:55.837+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:58:55.839+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:55.838+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:58:55.970+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:58:56.078+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:56.077+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:58:56.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.297 seconds
+[2023-12-08T07:59:26.224+0000] {processor.py:157} INFO - Started process (PID=3707) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:59:26.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:59:26.227+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:26.227+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:59:26.373+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:59:26.389+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:26.389+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:59:26.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.216 seconds
+[2023-12-08T07:59:56.989+0000] {processor.py:157} INFO - Started process (PID=3766) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:59:56.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T07:59:56.992+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:56.992+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:59:57.097+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T07:59:57.177+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:57.177+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:59:57.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.224 seconds
+[2023-12-08T08:00:27.433+0000] {processor.py:157} INFO - Started process (PID=3825) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:00:27.434+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T08:00:27.437+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:27.437+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:00:27.545+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:00:27.563+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:27.562+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:00:27.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.170 seconds
+[2023-12-08T08:00:58.590+0000] {processor.py:157} INFO - Started process (PID=3884) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:00:58.592+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T08:00:58.594+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:58.594+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:00:58.700+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:00:58.787+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:58.786+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:00:58.823+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.236 seconds
+[2023-12-08T08:01:28.890+0000] {processor.py:157} INFO - Started process (PID=3942) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:01:28.892+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T08:01:28.894+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:28.894+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:01:29.003+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:01:29.022+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:29.022+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:01:29.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.171 seconds
+[2023-12-08T08:01:59.179+0000] {processor.py:157} INFO - Started process (PID=4000) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:01:59.180+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T08:01:59.182+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:59.182+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:01:59.314+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:01:59.408+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:59.407+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:01:59.595+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.419 seconds
+[2023-12-08T08:02:29.757+0000] {processor.py:157} INFO - Started process (PID=4061) to work on /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:02:29.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_cctv_data_02.py for tasks to queue
+[2023-12-08T08:02:29.760+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:02:29.760+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:02:29.859+0000] {processor.py:839} INFO - DAG(s) dict_keys(['crawl_and_store_to_mysql']) retrieved from /opt/airflow/dags/download_cctv_data_02.py
+[2023-12-08T08:02:29.870+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:02:29.870+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:02:29.912+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_cctv_data_02.py took 0.158 seconds

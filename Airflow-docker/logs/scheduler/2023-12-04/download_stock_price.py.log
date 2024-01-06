@@ -1,0 +1,854 @@
+[2023-12-04T11:36:47.060+0000] {processor.py:157} INFO - Started process (PID=3281) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:36:47.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:36:47.063+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:36:47.063+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:36:47.086+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:36:47.083+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:36:47.089+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:36:47.106+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.048 seconds
+[2023-12-04T11:37:17.665+0000] {processor.py:157} INFO - Started process (PID=3336) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:37:17.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:37:17.669+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:37:17.668+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:37:17.686+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:37:17.683+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:37:17.687+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:37:17.704+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.041 seconds
+[2023-12-04T11:37:47.832+0000] {processor.py:157} INFO - Started process (PID=3391) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:37:47.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:37:47.835+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:37:47.835+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:37:47.853+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:37:47.850+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:37:47.854+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:37:47.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.042 seconds
+[2023-12-04T11:38:18.135+0000] {processor.py:157} INFO - Started process (PID=3446) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:38:18.136+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:38:18.138+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:38:18.138+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:38:18.153+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:38:18.150+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:38:18.154+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:38:18.168+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.035 seconds
+[2023-12-04T11:38:48.617+0000] {processor.py:157} INFO - Started process (PID=3501) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:38:48.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:38:48.620+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:38:48.619+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:38:48.635+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:38:48.632+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:38:48.636+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:38:48.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.035 seconds
+[2023-12-04T11:39:18.850+0000] {processor.py:157} INFO - Started process (PID=3556) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:39:18.851+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:39:18.853+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:39:18.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:39:18.868+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:39:18.865+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:39:18.869+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:39:18.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.036 seconds
+[2023-12-04T11:39:49.310+0000] {processor.py:157} INFO - Started process (PID=3611) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:39:49.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:39:49.313+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:39:49.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:39:49.335+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:39:49.330+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:39:49.337+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:39:49.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.053 seconds
+[2023-12-04T11:40:19.733+0000] {processor.py:157} INFO - Started process (PID=3666) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:40:19.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:40:19.736+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:40:19.736+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:40:19.751+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:40:19.748+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:40:19.752+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:40:19.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.035 seconds
+[2023-12-04T11:40:50.079+0000] {processor.py:157} INFO - Started process (PID=3721) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:40:50.079+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:40:50.081+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:40:50.081+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:40:50.095+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:40:50.092+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:40:50.096+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:40:50.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.034 seconds
+[2023-12-04T11:41:20.469+0000] {processor.py:157} INFO - Started process (PID=3776) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:41:20.470+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:41:20.473+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:41:20.472+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:41:20.494+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:41:20.491+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:41:20.495+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:41:20.509+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.043 seconds
+[2023-12-04T11:41:50.813+0000] {processor.py:157} INFO - Started process (PID=3831) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:41:50.814+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:41:50.816+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:41:50.816+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:41:50.830+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:41:50.827+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:41:50.831+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:41:50.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.035 seconds
+[2023-12-04T11:42:21.030+0000] {processor.py:157} INFO - Started process (PID=3886) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:42:21.031+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:42:21.033+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:42:21.033+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:42:21.056+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:42:21.051+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:42:21.057+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:42:21.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.046 seconds
+[2023-12-04T11:42:51.440+0000] {processor.py:157} INFO - Started process (PID=3941) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:42:51.441+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:42:51.443+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:42:51.443+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:42:51.459+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:42:51.456+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:42:51.460+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:42:51.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.036 seconds
+[2023-12-04T11:43:21.873+0000] {processor.py:157} INFO - Started process (PID=3996) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:43:21.875+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:43:21.877+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:43:21.876+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:43:21.894+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:43:21.890+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:43:21.895+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:43:21.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.039 seconds
+[2023-12-04T11:43:52.342+0000] {processor.py:157} INFO - Started process (PID=4052) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:43:52.343+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:43:52.345+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:43:52.345+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:43:52.364+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:43:52.360+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:43:52.365+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:43:52.380+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.041 seconds
+[2023-12-04T11:44:22.542+0000] {processor.py:157} INFO - Started process (PID=4107) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:44:22.543+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:44:22.545+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:44:22.544+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:44:22.559+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:44:22.556+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:44:22.560+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:44:22.575+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.035 seconds
+[2023-12-04T11:44:53.009+0000] {processor.py:157} INFO - Started process (PID=4162) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:44:53.010+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:44:53.012+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:44:53.012+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:44:53.028+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:44:53.025+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:44:53.029+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:44:53.044+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.037 seconds
+[2023-12-04T11:45:23.195+0000] {processor.py:157} INFO - Started process (PID=4217) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:45:23.196+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:45:23.198+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:45:23.198+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:45:23.212+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:45:23.209+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:45:23.213+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:45:23.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.035 seconds
+[2023-12-04T11:45:53.466+0000] {processor.py:157} INFO - Started process (PID=4272) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:45:53.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:45:53.469+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:45:53.469+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:45:53.494+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:45:53.490+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:45:53.497+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:45:53.514+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.050 seconds
+[2023-12-04T11:46:24.154+0000] {processor.py:157} INFO - Started process (PID=4327) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:46:24.154+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:46:24.157+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:46:24.156+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:46:24.177+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:46:24.173+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:46:24.179+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:46:24.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.045 seconds
+[2023-12-04T11:46:54.423+0000] {processor.py:157} INFO - Started process (PID=4382) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:46:54.424+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:46:54.426+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:46:54.426+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:46:54.443+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:46:54.440+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:46:54.444+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:46:54.459+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.039 seconds
+[2023-12-04T11:47:24.615+0000] {processor.py:157} INFO - Started process (PID=4437) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:47:24.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:47:24.620+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:47:24.620+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:47:24.654+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:47:24.648+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:47:24.658+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:47:24.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.066 seconds
+[2023-12-04T11:47:55.063+0000] {processor.py:157} INFO - Started process (PID=4492) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:47:55.066+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:47:55.069+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:47:55.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:47:55.098+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:47:55.092+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:47:55.101+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:47:55.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.067 seconds
+[2023-12-04T11:48:25.349+0000] {processor.py:157} INFO - Started process (PID=4547) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:48:25.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:48:25.360+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:48:25.360+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:48:25.413+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:48:25.402+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:48:25.416+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:48:25.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.104 seconds
+[2023-12-04T11:48:55.691+0000] {processor.py:157} INFO - Started process (PID=4602) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:48:55.692+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:48:55.694+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:48:55.694+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:48:55.709+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:48:55.706+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:48:55.710+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:48:55.726+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.037 seconds
+[2023-12-04T11:49:26.146+0000] {processor.py:157} INFO - Started process (PID=4657) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:49:26.147+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:49:26.149+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:49:26.149+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:49:26.168+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:49:26.165+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:49:26.170+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:49:26.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.041 seconds
+[2023-12-04T11:49:56.519+0000] {processor.py:157} INFO - Started process (PID=4712) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:49:56.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:49:56.525+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:49:56.524+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:49:56.557+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:49:56.551+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:49:56.559+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:49:56.583+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.068 seconds
+[2023-12-04T11:50:27.033+0000] {processor.py:157} INFO - Started process (PID=4767) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:50:27.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:50:27.037+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:50:27.037+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:50:27.062+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:50:27.058+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:50:27.063+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:50:27.082+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.052 seconds
+[2023-12-04T11:50:57.447+0000] {processor.py:157} INFO - Started process (PID=4822) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:50:57.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:50:57.452+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:50:57.452+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:50:57.479+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:50:57.474+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:50:57.480+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:50:57.505+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.063 seconds
+[2023-12-04T11:51:27.956+0000] {processor.py:157} INFO - Started process (PID=4877) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:51:27.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:51:27.959+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:51:27.958+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:51:27.973+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:51:27.970+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:51:27.974+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:51:27.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.036 seconds
+[2023-12-04T11:51:58.549+0000] {processor.py:157} INFO - Started process (PID=4933) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:51:58.550+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:51:58.552+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:51:58.552+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:51:58.568+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:51:58.565+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:51:58.569+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:51:58.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.039 seconds
+[2023-12-04T11:52:29.002+0000] {processor.py:157} INFO - Started process (PID=4989) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:52:29.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:52:29.006+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:52:29.005+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:52:29.033+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:52:29.030+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:52:29.034+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:52:29.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.052 seconds
+[2023-12-04T11:52:59.550+0000] {processor.py:157} INFO - Started process (PID=5045) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:52:59.551+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:52:59.554+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:52:59.554+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:52:59.574+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:52:59.570+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:52:59.575+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:52:59.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.050 seconds
+[2023-12-04T11:53:30.101+0000] {processor.py:157} INFO - Started process (PID=5101) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:53:30.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:53:30.106+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:53:30.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:53:30.126+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:53:30.123+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:53:30.127+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:53:30.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.046 seconds
+[2023-12-04T11:54:00.659+0000] {processor.py:157} INFO - Started process (PID=5157) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:54:00.660+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:54:00.662+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:54:00.662+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:54:00.681+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:54:00.677+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:54:00.683+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:54:00.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.042 seconds
+[2023-12-04T11:54:31.112+0000] {processor.py:157} INFO - Started process (PID=5213) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:54:31.113+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:54:31.117+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:54:31.116+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:54:31.155+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:54:31.149+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:54:31.157+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:54:31.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.076 seconds
+[2023-12-04T11:55:01.654+0000] {processor.py:157} INFO - Started process (PID=5269) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:55:01.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:55:01.658+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:55:01.658+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:55:01.673+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:55:01.671+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:55:01.674+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:55:01.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.039 seconds
+[2023-12-04T11:55:32.329+0000] {processor.py:157} INFO - Started process (PID=5325) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:55:32.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:55:32.332+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:55:32.331+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:55:32.346+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:55:32.343+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:55:32.347+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:55:32.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.036 seconds
+[2023-12-04T11:56:02.882+0000] {processor.py:157} INFO - Started process (PID=5381) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:56:02.883+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:56:02.886+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:56:02.886+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:56:02.901+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:56:02.898+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:56:02.902+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:56:02.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.038 seconds
+[2023-12-04T11:56:33.756+0000] {processor.py:157} INFO - Started process (PID=5437) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:56:33.757+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:56:33.759+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:56:33.759+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:56:33.776+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:56:33.773+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:56:33.777+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:56:33.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.038 seconds
+[2023-12-04T11:57:04.259+0000] {processor.py:157} INFO - Started process (PID=5493) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:57:04.260+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:57:04.262+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:57:04.262+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:57:04.276+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:57:04.274+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:57:04.277+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:57:04.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.037 seconds
+[2023-12-04T11:57:34.566+0000] {processor.py:157} INFO - Started process (PID=5549) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:57:34.567+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:57:34.570+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:57:34.569+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:57:34.588+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:57:34.585+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:57:34.590+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:57:34.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.045 seconds
+[2023-12-04T11:58:05.100+0000] {processor.py:157} INFO - Started process (PID=5605) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:58:05.101+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:58:05.103+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:58:05.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:58:05.120+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:58:05.117+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:58:05.121+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:58:05.137+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.039 seconds
+[2023-12-04T11:58:35.712+0000] {processor.py:157} INFO - Started process (PID=5661) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:58:35.713+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:58:35.716+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:58:35.715+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:58:35.733+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:58:35.730+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:58:35.734+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:58:35.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.040 seconds
+[2023-12-04T11:59:06.170+0000] {processor.py:157} INFO - Started process (PID=5717) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:59:06.171+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:59:06.173+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:59:06.173+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:59:06.187+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:59:06.185+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:59:06.188+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:59:06.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.037 seconds
+[2023-12-04T11:59:36.529+0000] {processor.py:157} INFO - Started process (PID=5773) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:59:36.530+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T11:59:36.532+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:59:36.532+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:59:36.546+0000] {logging_mixin.py:154} INFO - [2023-12-04T11:59:36.543+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T11:59:36.547+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T11:59:36.562+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.035 seconds
+[2023-12-04T12:00:06.778+0000] {processor.py:157} INFO - Started process (PID=5829) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:00:06.779+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:00:06.781+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:00:06.781+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:00:06.798+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:00:06.794+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:00:06.799+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:00:06.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.040 seconds
+[2023-12-04T12:00:36.971+0000] {processor.py:157} INFO - Started process (PID=5885) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:00:36.972+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:00:36.974+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:00:36.974+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:00:36.991+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:00:36.988+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:00:36.992+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:00:37.010+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.041 seconds
+[2023-12-04T12:01:07.616+0000] {processor.py:157} INFO - Started process (PID=5941) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:01:07.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:01:07.620+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:01:07.620+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:01:07.664+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:01:07.657+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:01:07.666+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:01:07.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.076 seconds
+[2023-12-04T12:01:38.133+0000] {processor.py:157} INFO - Started process (PID=6003) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:01:38.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:01:38.138+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:01:38.137+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:01:38.165+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:01:38.160+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:01:38.167+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:01:38.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.061 seconds
+[2023-12-04T12:02:08.514+0000] {processor.py:157} INFO - Started process (PID=6057) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:02:08.515+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:02:08.517+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:02:08.516+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:02:08.534+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:02:08.531+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:02:08.535+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:02:08.552+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.042 seconds
+[2023-12-04T12:02:39.002+0000] {processor.py:157} INFO - Started process (PID=6113) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:02:39.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:02:39.005+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:02:39.005+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:02:39.024+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:02:39.018+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:02:39.026+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:02:39.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.044 seconds
+[2023-12-04T12:03:09.824+0000] {processor.py:157} INFO - Started process (PID=6169) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:03:09.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:03:09.826+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:03:09.826+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:03:09.846+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:03:09.842+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:03:09.848+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:03:09.864+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.043 seconds
+[2023-12-04T12:03:40.669+0000] {processor.py:157} INFO - Started process (PID=6225) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:03:40.670+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:03:40.672+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:03:40.672+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:03:40.690+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:03:40.687+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:03:40.691+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:03:40.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.042 seconds
+[2023-12-04T12:04:11.102+0000] {processor.py:157} INFO - Started process (PID=6281) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:04:11.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:04:11.106+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:04:11.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:04:11.125+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:04:11.121+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:04:11.127+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:04:11.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.046 seconds
+[2023-12-04T12:04:41.317+0000] {processor.py:157} INFO - Started process (PID=6337) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:04:41.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:04:41.321+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:04:41.321+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:04:41.342+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:04:41.339+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:04:41.344+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:04:41.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.044 seconds
+[2023-12-04T12:05:11.701+0000] {processor.py:157} INFO - Started process (PID=6393) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:05:11.702+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:05:11.704+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:05:11.703+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:05:11.722+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:05:11.719+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:05:11.725+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:05:11.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.044 seconds
+[2023-12-04T12:05:42.186+0000] {processor.py:157} INFO - Started process (PID=6448) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:05:42.187+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T12:05:42.188+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:05:42.188+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:05:42.208+0000] {logging_mixin.py:154} INFO - [2023-12-04T12:05:42.204+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T12:05:42.210+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T12:05:42.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.054 seconds
+[2023-12-04T20:02:27.057+0000] {processor.py:157} INFO - Started process (PID=58335) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:02:27.058+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T20:02:27.059+0000] {logging_mixin.py:154} INFO - [2023-12-04T20:02:27.059+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:02:27.075+0000] {logging_mixin.py:154} INFO - [2023-12-04T20:02:27.070+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T20:02:27.076+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:02:27.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.040 seconds
+[2023-12-04T20:02:57.424+0000] {processor.py:157} INFO - Started process (PID=58391) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:02:57.425+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T20:02:57.426+0000] {logging_mixin.py:154} INFO - [2023-12-04T20:02:57.426+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:02:57.448+0000] {logging_mixin.py:154} INFO - [2023-12-04T20:02:57.445+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T20:02:57.450+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:02:57.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.047 seconds
+[2023-12-04T20:03:27.798+0000] {processor.py:157} INFO - Started process (PID=58447) to work on /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:03:27.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/download_stock_price.py for tasks to queue
+[2023-12-04T20:03:27.800+0000] {logging_mixin.py:154} INFO - [2023-12-04T20:03:27.800+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:03:27.819+0000] {logging_mixin.py:154} INFO - [2023-12-04T20:03:27.815+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/download_stock_price.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_stock_price.py", line 6, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2023-12-04T20:03:27.820+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/download_stock_price.py
+[2023-12-04T20:03:27.835+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/download_stock_price.py took 0.040 seconds

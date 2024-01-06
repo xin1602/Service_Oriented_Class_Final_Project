@@ -1,0 +1,40 @@
+[2023-12-19T03:06:20.772+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: steal_etl_storeToPostgres.steal_ETL manual__2023-12-19T03:06:19.770511+00:00 [queued]>
+[2023-12-19T03:06:20.779+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: steal_etl_storeToPostgres.steal_ETL manual__2023-12-19T03:06:19.770511+00:00 [queued]>
+[2023-12-19T03:06:20.780+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-19T03:06:20.791+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): steal_ETL> on 2023-12-19 03:06:19.770511+00:00
+[2023-12-19T03:06:20.800+0000] {standard_task_runner.py:57} INFO - Started process 1018 to run task
+[2023-12-19T03:06:20.803+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'steal_etl_storeToPostgres', 'steal_ETL', 'manual__2023-12-19T03:06:19.770511+00:00', '--job-id', '298', '--raw', '--subdir', 'DAGS_FOLDER/steal_etl_storeToPostgres.py', '--cfg-path', '/tmp/tmp0wx77fx6']
+[2023-12-19T03:06:20.806+0000] {standard_task_runner.py:85} INFO - Job 298: Subtask steal_ETL
+[2023-12-19T03:06:20.847+0000] {task_command.py:416} INFO - Running <TaskInstance: steal_etl_storeToPostgres.steal_ETL manual__2023-12-19T03:06:19.770511+00:00 [running]> on host f97daee24bd9
+[2023-12-19T03:06:21.043+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='steal_etl_storeToPostgres' AIRFLOW_CTX_TASK_ID='steal_ETL' AIRFLOW_CTX_EXECUTION_DATE='2023-12-19T03:06:19.770511+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-19T03:06:19.770511+00:00'
+[2023-12-19T03:06:21.066+0000] {warnings.py:109} WARNING - /opt/***/dags/steal_etl_storeToPostgres.py:54: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc.drop('_id', axis=1, inplace=True)
+
+[2023-12-19T03:06:21.068+0000] {warnings.py:109} WARNING - /opt/***/dags/steal_etl_storeToPostgres.py:55: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc.rename(columns=newcolumns, inplace=True)
+
+[2023-12-19T03:06:21.077+0000] {logging_mixin.py:154} INFO -         年   月   日       日期    分局    所          經度         緯度    種類
+23    110  12  14  1101214  中壢分局  龍興所  121.258911  24.934926  汽車竊盜
+27    110  12   1  1101201  中壢分局  文化所  121.249124  24.957730  汽車竊盜
+30    110  11   9  1101109  中壢分局  普仁所  121.236280  24.963268  汽車竊盜
+31    110  11   7  1101107  中壢分局  普仁所  121.231388  24.956273  汽車竊盜
+34    110  10  31  1101031  中壢分局  興國所  121.218099  24.975003  汽車竊盜
+...   ...  ..  ..      ...   ...  ...         ...        ...   ...
+3297  104   1   1  1040101  中壢分局  仁愛所  121.231200  24.954940  汽車竊盜
+3298  104   1   1  1040101  中壢分局  龍興所  121.237100  24.933020  汽車竊盜
+3303  102   7  31  1020731  中壢分局  仁愛所  121.255900  24.946490  汽車竊盜
+3304  101  11   3  1011103  中壢分局  龍興所  121.243400  24.940130  汽車竊盜
+3308  990  90   4   990904  中壢分局  龍興所  121.257671  24.931206  汽車竊盜
+
+[682 rows x 9 columns]
+[2023-12-19T03:06:21.080+0000] {logging_mixin.py:154} INFO - CSV File Saved: D:/Airflow-docker/dags/data/steal_ETL.csv
+[2023-12-19T03:06:21.081+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-19T03:06:21.089+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=steal_etl_storeToPostgres, task_id=steal_ETL, execution_date=20231219T030619, start_date=20231219T030620, end_date=20231219T030621
+[2023-12-19T03:06:21.136+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T03:06:21.163+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

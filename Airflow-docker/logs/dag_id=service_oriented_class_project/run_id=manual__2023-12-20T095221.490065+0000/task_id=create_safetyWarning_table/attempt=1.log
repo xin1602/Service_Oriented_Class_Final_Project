@@ -1,0 +1,44 @@
+[2023-12-20T09:52:33.534+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: service_oriented_class_project.create_safetyWarning_table manual__2023-12-20T09:52:21.490065+00:00 [queued]>
+[2023-12-20T09:52:33.543+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: service_oriented_class_project.create_safetyWarning_table manual__2023-12-20T09:52:21.490065+00:00 [queued]>
+[2023-12-20T09:52:33.544+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-20T09:52:33.556+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_safetyWarning_table> on 2023-12-20 09:52:21.490065+00:00
+[2023-12-20T09:52:33.564+0000] {standard_task_runner.py:57} INFO - Started process 22726 to run task
+[2023-12-20T09:52:33.567+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'service_oriented_class_project', 'create_safetyWarning_table', 'manual__2023-12-20T09:52:21.490065+00:00', '--job-id', '571', '--raw', '--subdir', 'DAGS_FOLDER/service_oriented_class_project.py', '--cfg-path', '/tmp/tmp65izgv79']
+[2023-12-20T09:52:33.574+0000] {standard_task_runner.py:85} INFO - Job 571: Subtask create_safetyWarning_table
+[2023-12-20T09:52:33.766+0000] {task_command.py:416} INFO - Running <TaskInstance: service_oriented_class_project.create_safetyWarning_table manual__2023-12-20T09:52:21.490065+00:00 [running]> on host f97daee24bd9
+[2023-12-20T09:52:33.829+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='service_oriented_class_project' AIRFLOW_CTX_TASK_ID='create_safetyWarning_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-20T09:52:21.490065+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-20T09:52:21.490065+00:00'
+[2023-12-20T09:52:33.830+0000] {sql.py:274} INFO - Executing: 
+
+            CREATE TABLE safety_warning (
+                id SERIAL PRIMARY KEY,
+                地點位置 VARCHAR(255),
+                管轄警察局 VARCHAR(255),
+                分局 VARCHAR(255),
+                聯繫窗口 VARCHAR(255),
+                聯繫電話 VARCHAR(20),
+                經緯度 VARCHAR(50),
+                經度 FLOAT,
+                緯度 FLOAT
+            );
+
+            
+[2023-12-20T09:52:33.837+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T09:52:33.844+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T09:52:33.892+0000] {sql.py:418} INFO - Running statement: 
+
+            CREATE TABLE safety_warning (
+                id SERIAL PRIMARY KEY,
+                地點位置 VARCHAR(255),
+                管轄警察局 VARCHAR(255),
+                分局 VARCHAR(255),
+                聯繫窗口 VARCHAR(255),
+                聯繫電話 VARCHAR(20),
+                經緯度 VARCHAR(50),
+                經度 FLOAT,
+                緯度 FLOAT
+            );
+
+            , parameters: None
+[2023-12-20T09:52:33.911+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=service_oriented_class_project, task_id=create_safetyWarning_table, execution_date=20231220T095221, start_date=20231220T095233, end_date=20231220T095233
+[2023-12-20T09:52:33.940+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T09:52:34.104+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

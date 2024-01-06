@@ -1,0 +1,22 @@
+[2023-12-18T17:32:50.531+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_dashboard_automated_send_email.download_dashboard_automated_send_email manual__2023-12-18T17:32:39.663836+00:00 [queued]>
+[2023-12-18T17:32:50.538+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_dashboard_automated_send_email.download_dashboard_automated_send_email manual__2023-12-18T17:32:39.663836+00:00 [queued]>
+[2023-12-18T17:32:50.539+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-18T17:32:50.552+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): download_dashboard_automated_send_email> on 2023-12-18 17:32:39.663836+00:00
+[2023-12-18T17:32:50.558+0000] {standard_task_runner.py:57} INFO - Started process 93 to run task
+[2023-12-18T17:32:50.561+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'download_dashboard_automated_send_email', 'download_dashboard_automated_send_email', 'manual__2023-12-18T17:32:39.663836+00:00', '--job-id', '244', '--raw', '--subdir', 'DAGS_FOLDER/download_dashboard_automated_send_email.py', '--cfg-path', '/tmp/tmp9d6qc837']
+[2023-12-18T17:32:50.562+0000] {standard_task_runner.py:85} INFO - Job 244: Subtask download_dashboard_automated_send_email
+[2023-12-18T17:32:50.605+0000] {task_command.py:416} INFO - Running <TaskInstance: download_dashboard_automated_send_email.download_dashboard_automated_send_email manual__2023-12-18T17:32:39.663836+00:00 [running]> on host 0178a73598d5
+[2023-12-18T17:32:50.658+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='download_dashboard_automated_send_email' AIRFLOW_CTX_TASK_ID='download_dashboard_automated_send_email' AIRFLOW_CTX_EXECUTION_DATE='2023-12-18T17:32:39.663836+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-18T17:32:39.663836+00:00'
+[2023-12-18T17:32:50.660+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/download_dashboard_automated_send_email.py", line 53, in download_dashboard_automated_send_email
+    driver = webdriver.Chrome(executable_path="D:/Airflow-docker/chromedriver.exe",options=chrome_options)
+TypeError: __init__() got an unexpected keyword argument 'executable_path'
+[2023-12-18T17:32:50.673+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=download_dashboard_automated_send_email, task_id=download_dashboard_automated_send_email, execution_date=20231218T173239, start_date=20231218T173250, end_date=20231218T173250
+[2023-12-18T17:32:50.682+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 244 for task download_dashboard_automated_send_email (__init__() got an unexpected keyword argument 'executable_path'; 93)
+[2023-12-18T17:32:50.694+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-18T17:32:50.709+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

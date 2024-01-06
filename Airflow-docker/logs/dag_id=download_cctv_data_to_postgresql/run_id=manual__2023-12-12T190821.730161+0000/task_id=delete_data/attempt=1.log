@@ -1,0 +1,17 @@
+[2023-12-12T19:08:29.219+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_cctv_data_to_postgresql.delete_data manual__2023-12-12T19:08:21.730161+00:00 [queued]>
+[2023-12-12T19:08:29.227+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_cctv_data_to_postgresql.delete_data manual__2023-12-12T19:08:21.730161+00:00 [queued]>
+[2023-12-12T19:08:29.227+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-12T19:08:29.239+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): delete_data> on 2023-12-12 19:08:21.730161+00:00
+[2023-12-12T19:08:29.247+0000] {standard_task_runner.py:57} INFO - Started process 830 to run task
+[2023-12-12T19:08:29.250+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'download_cctv_data_to_postgresql', 'delete_data', 'manual__2023-12-12T19:08:21.730161+00:00', '--job-id', '185', '--raw', '--subdir', 'DAGS_FOLDER/download_cctv_data_to_postgresql.py', '--cfg-path', '/tmp/tmp741guz4h']
+[2023-12-12T19:08:29.253+0000] {standard_task_runner.py:85} INFO - Job 185: Subtask delete_data
+[2023-12-12T19:08:29.294+0000] {task_command.py:416} INFO - Running <TaskInstance: download_cctv_data_to_postgresql.delete_data manual__2023-12-12T19:08:21.730161+00:00 [running]> on host 870c4047aa24
+[2023-12-12T19:08:29.349+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='download_cctv_data_to_postgresql' AIRFLOW_CTX_TASK_ID='delete_data' AIRFLOW_CTX_EXECUTION_DATE='2023-12-12T19:08:21.730161+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-12T19:08:21.730161+00:00'
+[2023-12-12T19:08:29.351+0000] {sql.py:274} INFO - Executing: DELETE FROM cctv;
+[2023-12-12T19:08:29.357+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T19:08:29.365+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T19:08:29.403+0000] {sql.py:418} INFO - Running statement: DELETE FROM cctv;, parameters: None
+[2023-12-12T19:08:29.406+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-12-12T19:08:29.415+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=download_cctv_data_to_postgresql, task_id=delete_data, execution_date=20231212T190821, start_date=20231212T190829, end_date=20231212T190829
+[2023-12-12T19:08:29.464+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T19:08:29.482+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

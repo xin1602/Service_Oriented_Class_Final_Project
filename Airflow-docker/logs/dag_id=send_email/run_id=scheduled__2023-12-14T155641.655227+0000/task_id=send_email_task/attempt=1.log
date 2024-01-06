@@ -1,0 +1,20 @@
+[2023-12-15T15:56:42.125+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: send_email.send_email_task scheduled__2023-12-14T15:56:41.655227+00:00 [queued]>
+[2023-12-15T15:56:42.133+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: send_email.send_email_task scheduled__2023-12-14T15:56:41.655227+00:00 [queued]>
+[2023-12-15T15:56:42.134+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-15T15:56:42.144+0000] {taskinstance.py:1382} INFO - Executing <Task(EmailOperator): send_email_task> on 2023-12-14 15:56:41.655227+00:00
+[2023-12-15T15:56:42.149+0000] {standard_task_runner.py:57} INFO - Started process 8031 to run task
+[2023-12-15T15:56:42.152+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'send_email', 'send_email_task', 'scheduled__2023-12-14T15:56:41.655227+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/send_email.py', '--cfg-path', '/tmp/tmplwu2mzql']
+[2023-12-15T15:56:42.153+0000] {standard_task_runner.py:85} INFO - Job 93: Subtask send_email_task
+[2023-12-15T15:56:42.191+0000] {task_command.py:416} INFO - Running <TaskInstance: send_email.send_email_task scheduled__2023-12-14T15:56:41.655227+00:00 [running]> on host d66b4b18b374
+[2023-12-15T15:56:42.223+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-12-15T15:56:42.248+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='send_email' AIRFLOW_CTX_TASK_ID='send_email_task' AIRFLOW_CTX_EXECUTION_DATE='2023-12-14T15:56:41.655227+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-14T15:56:41.655227+00:00'
+[2023-12-15T15:56:42.261+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-12-15T15:56:42.262+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2023-12-15T15:56:43.385+0000] {email.py:281} INFO - Sent an alert email to ['christinelee1114@gmail.com']
+[2023-12-15T15:56:44.952+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=send_email, task_id=send_email_task, execution_date=20231214T155641, start_date=20231215T155642, end_date=20231215T155644
+[2023-12-15T15:56:44.984+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-15T15:56:44.998+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

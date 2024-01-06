@@ -1,0 +1,50 @@
+[2023-12-13T15:03:53.913+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csvData_insert_postgresql.create_cctv_data_table manual__2023-12-13T15:03:50.517559+00:00 [queued]>
+[2023-12-13T15:03:53.919+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csvData_insert_postgresql.create_cctv_data_table manual__2023-12-13T15:03:50.517559+00:00 [queued]>
+[2023-12-13T15:03:53.920+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-13T15:03:53.930+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_cctv_data_table> on 2023-12-13 15:03:50.517559+00:00
+[2023-12-13T15:03:53.937+0000] {standard_task_runner.py:57} INFO - Started process 7923 to run task
+[2023-12-13T15:03:53.939+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csvData_insert_postgresql', 'create_cctv_data_table', 'manual__2023-12-13T15:03:50.517559+00:00', '--job-id', '205', '--raw', '--subdir', 'DAGS_FOLDER/csvData_insert_postgresql.py', '--cfg-path', '/tmp/tmpb954mf63']
+[2023-12-13T15:03:53.942+0000] {standard_task_runner.py:85} INFO - Job 205: Subtask create_cctv_data_table
+[2023-12-13T15:03:53.982+0000] {task_command.py:416} INFO - Running <TaskInstance: csvData_insert_postgresql.create_cctv_data_table manual__2023-12-13T15:03:50.517559+00:00 [running]> on host 870c4047aa24
+[2023-12-13T15:03:54.041+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='csvData_insert_postgresql' AIRFLOW_CTX_TASK_ID='create_cctv_data_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-13T15:03:50.517559+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-13T15:03:50.517559+00:00'
+[2023-12-13T15:03:54.043+0000] {sql.py:274} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS cctv_2 (
+                id SERIAL PRIMARY KEY,
+                地段 VARCHAR(255),
+                區域 VARCHAR(255),
+                經度 VARCHAR(20),
+                緯度 VARCHAR(20),
+                狀態 VARCHAR(10),
+            );
+            
+[2023-12-13T15:03:54.050+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T15:03:54.056+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T15:03:54.100+0000] {sql.py:418} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS cctv_2 (
+                id SERIAL PRIMARY KEY,
+                地段 VARCHAR(255),
+                區域 VARCHAR(255),
+                經度 VARCHAR(20),
+                緯度 VARCHAR(20),
+                狀態 VARCHAR(10),
+            );
+            , parameters: None
+[2023-12-13T15:03:54.103+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near ")"
+LINE 9:             );
+                    ^
+
+[2023-12-13T15:03:54.110+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=csvData_insert_postgresql, task_id=create_cctv_data_table, execution_date=20231213T150350, start_date=20231213T150353, end_date=20231213T150354
+[2023-12-13T15:03:54.121+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 205 for task create_cctv_data_table (syntax error at or near ")"
+LINE 9:             );
+                    ^
+; 7923)
+[2023-12-13T15:03:54.153+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-13T15:03:54.171+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

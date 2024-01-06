@@ -1,0 +1,16 @@
+[2023-12-19T04:44:47.408+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: steal_etl_storeToPostgres.delete_data manual__2023-12-19T04:44:44.343254+00:00 [queued]>
+[2023-12-19T04:44:47.415+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: steal_etl_storeToPostgres.delete_data manual__2023-12-19T04:44:44.343254+00:00 [queued]>
+[2023-12-19T04:44:47.416+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-19T04:44:47.427+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): delete_data> on 2023-12-19 04:44:44.343254+00:00
+[2023-12-19T04:44:47.434+0000] {standard_task_runner.py:57} INFO - Started process 1696 to run task
+[2023-12-19T04:44:47.437+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'steal_etl_storeToPostgres', 'delete_data', 'manual__2023-12-19T04:44:44.343254+00:00', '--job-id', '388', '--raw', '--subdir', 'DAGS_FOLDER/steal_etl_storeToPostgres.py', '--cfg-path', '/tmp/tmp0s8xfz8z']
+[2023-12-19T04:44:47.439+0000] {standard_task_runner.py:85} INFO - Job 388: Subtask delete_data
+[2023-12-19T04:44:47.476+0000] {task_command.py:416} INFO - Running <TaskInstance: steal_etl_storeToPostgres.delete_data manual__2023-12-19T04:44:44.343254+00:00 [running]> on host f97daee24bd9
+[2023-12-19T04:44:47.656+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='steal_etl_storeToPostgres' AIRFLOW_CTX_TASK_ID='delete_data' AIRFLOW_CTX_EXECUTION_DATE='2023-12-19T04:44:44.343254+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-19T04:44:44.343254+00:00'
+[2023-12-19T04:44:47.657+0000] {sql.py:274} INFO - Executing: DROP TABLE IF EXISTS steal;
+[2023-12-19T04:44:47.663+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:44:47.670+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:44:47.716+0000] {sql.py:418} INFO - Running statement: DROP TABLE IF EXISTS steal;, parameters: None
+[2023-12-19T04:44:47.728+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=steal_etl_storeToPostgres, task_id=delete_data, execution_date=20231219T044444, start_date=20231219T044447, end_date=20231219T044447
+[2023-12-19T04:44:47.770+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T04:44:47.925+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

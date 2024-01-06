@@ -1,0 +1,109 @@
+[2023-12-19T18:54:15.822+0000] {processor.py:157} INFO - Started process (PID=39445) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:54:15.823+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:54:15.825+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:54:15.824+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:54:16.066+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:54:16.284+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:54:16.283+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:54:16.298+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:54:16.297+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:54:16.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.502 seconds
+[2023-12-19T18:54:46.443+0000] {processor.py:157} INFO - Started process (PID=39469) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:54:46.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:54:46.445+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:54:46.444+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:54:46.674+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:54:46.833+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:54:46.697+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:54:46.847+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:54:46.847+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:54:46.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.423 seconds
+[2023-12-19T18:55:16.961+0000] {processor.py:157} INFO - Started process (PID=39492) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:55:16.962+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:55:16.963+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:55:16.963+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:55:17.187+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:55:17.198+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:55:17.197+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:55:17.214+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:55:17.213+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:55:17.229+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.270 seconds
+[2023-12-19T18:55:47.467+0000] {processor.py:157} INFO - Started process (PID=39516) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:55:47.468+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:55:47.469+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:55:47.469+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:55:47.703+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:55:47.875+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:55:47.875+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:55:47.889+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:55:47.889+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:55:47.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.442 seconds
+[2023-12-19T18:56:17.958+0000] {processor.py:157} INFO - Started process (PID=39540) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:56:17.959+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:56:17.960+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:56:17.960+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:56:18.187+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:56:18.206+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:56:18.205+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:56:18.329+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:56:18.329+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:56:18.347+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.392 seconds
+[2023-12-19T18:56:48.609+0000] {processor.py:157} INFO - Started process (PID=39564) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:56:48.610+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:56:48.611+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:56:48.611+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:56:48.846+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:56:48.855+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:56:48.855+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:56:48.871+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:56:48.871+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:56:48.887+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.281 seconds
+[2023-12-19T18:57:18.952+0000] {processor.py:157} INFO - Started process (PID=39588) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:57:18.954+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:57:18.955+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:57:18.955+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:57:19.234+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:57:19.447+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:57:19.447+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:57:19.460+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:57:19.460+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:57:19.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.526 seconds
+[2023-12-19T18:57:49.820+0000] {processor.py:157} INFO - Started process (PID=39612) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:57:49.821+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:57:49.822+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:57:49.822+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:57:50.062+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:57:50.082+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:57:50.081+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:57:50.208+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:57:50.208+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:57:50.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.406 seconds
+[2023-12-19T18:58:20.974+0000] {processor.py:157} INFO - Started process (PID=39636) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:58:20.975+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:58:20.976+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:58:20.976+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:58:21.306+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:58:21.314+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:58:21.313+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:58:21.328+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:58:21.327+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:58:21.341+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.369 seconds
+[2023-12-19T18:58:51.419+0000] {processor.py:157} INFO - Started process (PID=39661) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:58:51.420+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:58:51.421+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:58:51.420+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:58:51.766+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:58:51.832+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:58:51.831+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:58:51.845+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:58:51.845+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:58:51.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.448 seconds
+[2023-12-19T18:59:21.962+0000] {processor.py:157} INFO - Started process (PID=39685) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:59:21.963+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:59:21.964+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:59:21.964+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:59:22.289+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:59:22.311+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:59:22.309+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:59:22.326+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:59:22.326+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:59:22.341+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.381 seconds
+[2023-12-19T18:59:53.042+0000] {processor.py:157} INFO - Started process (PID=39709) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:59:53.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T18:59:53.044+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:59:53.044+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:59:53.358+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T18:59:53.366+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:59:53.366+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T18:59:53.380+0000] {logging_mixin.py:154} INFO - [2023-12-19T18:59:53.380+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T18:59:53.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.356 seconds
+[2023-12-19T19:00:23.721+0000] {processor.py:157} INFO - Started process (PID=39733) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:00:23.722+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T19:00:23.723+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:00:23.723+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:00:24.075+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:00:24.168+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:00:24.168+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T19:00:24.183+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:00:24.182+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T19:00:24.199+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.481 seconds
+[2023-12-19T19:00:54.496+0000] {processor.py:157} INFO - Started process (PID=39757) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:00:54.497+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T19:00:54.498+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:00:54.497+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:00:54.855+0000] {processor.py:839} INFO - DAG(s) dict_keys(['steal_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:00:54.871+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:00:54.871+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T19:00:54.885+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:00:54.885+0000] {dag.py:3722} INFO - Setting next_dagrun for steal_etl_storeToPostgres to 2023-12-19T02:53:18.105659+00:00, run_after=2023-12-20T02:53:18.105659+00:00
+[2023-12-19T19:00:54.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.408 seconds
+[2023-12-19T19:01:18.320+0000] {processor.py:157} INFO - Started process (PID=39771) to work on /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:01:18.322+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/steal_etl_storeToPostgres copy.py for tasks to queue
+[2023-12-19T19:01:18.323+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:01:18.322+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:01:18.685+0000] {processor.py:839} INFO - DAG(s) dict_keys(['safetyWarning_etl_storeToPostgres']) retrieved from /opt/airflow/dags/steal_etl_storeToPostgres copy.py
+[2023-12-19T19:01:18.753+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:01:18.753+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-19T19:01:18.760+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:01:18.760+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-19T19:01:18.765+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:01:18.765+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-19T19:01:18.766+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:01:18.765+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-19T19:01:18.773+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:01:18.773+0000] {dag.py:2963} INFO - Creating ORM DAG for safetyWarning_etl_storeToPostgres
+[2023-12-19T19:01:18.779+0000] {logging_mixin.py:154} INFO - [2023-12-19T19:01:18.779+0000] {dag.py:3722} INFO - Setting next_dagrun for safetyWarning_etl_storeToPostgres to 2023-12-18T19:01:18.779598+00:00, run_after=2023-12-19T19:01:18.779598+00:00
+[2023-12-19T19:01:18.795+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/steal_etl_storeToPostgres copy.py took 0.478 seconds

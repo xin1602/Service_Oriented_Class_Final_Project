@@ -1,0 +1,49 @@
+[2023-12-18T19:44:56.455+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: traffic_etl_storeToPostgres.traffic_etl scheduled__2023-12-17T19:43:48.066893+00:00 [queued]>
+[2023-12-18T19:44:56.462+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: traffic_etl_storeToPostgres.traffic_etl scheduled__2023-12-17T19:43:48.066893+00:00 [queued]>
+[2023-12-18T19:44:56.462+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-18T19:44:56.473+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): traffic_etl> on 2023-12-17 19:43:48.066893+00:00
+[2023-12-18T19:44:56.482+0000] {standard_task_runner.py:57} INFO - Started process 1471 to run task
+[2023-12-18T19:44:56.486+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'traffic_etl_storeToPostgres', 'traffic_etl', 'scheduled__2023-12-17T19:43:48.066893+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/traffic_etl_storeToPostgres.py', '--cfg-path', '/tmp/tmpr6anryxs']
+[2023-12-18T19:44:56.488+0000] {standard_task_runner.py:85} INFO - Job 260: Subtask traffic_etl
+[2023-12-18T19:44:56.537+0000] {task_command.py:416} INFO - Running <TaskInstance: traffic_etl_storeToPostgres.traffic_etl scheduled__2023-12-17T19:43:48.066893+00:00 [running]> on host 8833c94e6466
+[2023-12-18T19:44:56.601+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='traffic_etl_storeToPostgres' AIRFLOW_CTX_TASK_ID='traffic_etl' AIRFLOW_CTX_EXECUTION_DATE='2023-12-17T19:43:48.066893+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-17T19:43:48.066893+00:00'
+[2023-12-18T19:44:59.276+0000] {logging_mixin.py:154} INFO - Data loaded from /opt/***/dags/data/traffic111.csv
+[2023-12-18T19:44:59.325+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_etl_storeToPostgres.py:76: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc['日期'] = df_loc['日期'].astype('str')
+
+[2023-12-18T19:44:59.334+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_etl_storeToPostgres.py:77: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc['日期'] = pd.to_datetime(df_loc['日期'], format='%Y%m%d')
+
+[2023-12-18T19:44:59.352+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_etl_storeToPostgres.py:78: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc[['年', '月', '日']] = df_loc['日期'].dt.strftime('%Y-%m-%d').str.split('-', expand=True)
+
+[2023-12-18T19:44:59.353+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_etl_storeToPostgres.py:78: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc[['年', '月', '日']] = df_loc['日期'].dt.strftime('%Y-%m-%d').str.split('-', expand=True)
+
+[2023-12-18T19:44:59.354+0000] {warnings.py:109} WARNING - /opt/***/dags/traffic_etl_storeToPostgres.py:78: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_loc[['年', '月', '日']] = df_loc['日期'].dt.strftime('%Y-%m-%d').str.split('-', expand=True)
+
+[2023-12-18T19:44:59.406+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-18T19:44:59.415+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=traffic_etl_storeToPostgres, task_id=traffic_etl, execution_date=20231217T194348, start_date=20231218T194456, end_date=20231218T194459
+[2023-12-18T19:44:59.452+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-18T19:44:59.476+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

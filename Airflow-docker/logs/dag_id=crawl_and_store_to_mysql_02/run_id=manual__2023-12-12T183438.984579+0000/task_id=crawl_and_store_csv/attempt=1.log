@@ -1,0 +1,13 @@
+[2023-12-12T18:34:40.422+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawl_and_store_to_mysql_02.crawl_and_store_csv manual__2023-12-12T18:34:38.984579+00:00 [queued]>
+[2023-12-12T18:34:40.428+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawl_and_store_to_mysql_02.crawl_and_store_csv manual__2023-12-12T18:34:38.984579+00:00 [queued]>
+[2023-12-12T18:34:40.429+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-12T18:34:40.441+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): crawl_and_store_csv> on 2023-12-12 18:34:38.984579+00:00
+[2023-12-12T18:34:40.448+0000] {standard_task_runner.py:57} INFO - Started process 214 to run task
+[2023-12-12T18:34:40.451+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'crawl_and_store_to_mysql_02', 'crawl_and_store_csv', 'manual__2023-12-12T18:34:38.984579+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/download_cctv_data_02.py', '--cfg-path', '/tmp/tmpmioc_u1q']
+[2023-12-12T18:34:40.453+0000] {standard_task_runner.py:85} INFO - Job 151: Subtask crawl_and_store_csv
+[2023-12-12T18:34:40.502+0000] {task_command.py:416} INFO - Running <TaskInstance: crawl_and_store_to_mysql_02.crawl_and_store_csv manual__2023-12-12T18:34:38.984579+00:00 [running]> on host 870c4047aa24
+[2023-12-12T18:34:40.554+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='crawl_and_store_to_mysql_02' AIRFLOW_CTX_TASK_ID='crawl_and_store_csv' AIRFLOW_CTX_EXECUTION_DATE='2023-12-12T18:34:38.984579+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-12T18:34:38.984579+00:00'
+[2023-12-12T18:34:44.243+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-12T18:34:44.253+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=crawl_and_store_to_mysql_02, task_id=crawl_and_store_csv, execution_date=20231212T183438, start_date=20231212T183440, end_date=20231212T183444
+[2023-12-12T18:34:44.281+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T18:34:44.298+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

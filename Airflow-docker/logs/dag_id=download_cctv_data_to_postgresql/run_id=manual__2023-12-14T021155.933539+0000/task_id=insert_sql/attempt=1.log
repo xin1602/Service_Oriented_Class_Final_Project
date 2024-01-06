@@ -1,0 +1,23 @@
+[2023-12-14T02:12:22.514+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_cctv_data_to_postgresql.insert_sql manual__2023-12-14T02:11:55.933539+00:00 [queued]>
+[2023-12-14T02:12:22.525+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_cctv_data_to_postgresql.insert_sql manual__2023-12-14T02:11:55.933539+00:00 [queued]>
+[2023-12-14T02:12:22.526+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-14T02:12:22.542+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_sql> on 2023-12-14 02:11:55.933539+00:00
+[2023-12-14T02:12:22.551+0000] {standard_task_runner.py:57} INFO - Started process 449 to run task
+[2023-12-14T02:12:22.555+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'download_cctv_data_to_postgresql', 'insert_sql', 'manual__2023-12-14T02:11:55.933539+00:00', '--job-id', '333', '--raw', '--subdir', 'DAGS_FOLDER/download_cctv_data_to_postgresql.py', '--cfg-path', '/tmp/tmp83yflxb_']
+[2023-12-14T02:12:22.558+0000] {standard_task_runner.py:85} INFO - Job 333: Subtask insert_sql
+[2023-12-14T02:12:22.606+0000] {task_command.py:416} INFO - Running <TaskInstance: download_cctv_data_to_postgresql.insert_sql manual__2023-12-14T02:11:55.933539+00:00 [running]> on host cbe761bfd41f
+[2023-12-14T02:12:22.683+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='download_cctv_data_to_postgresql' AIRFLOW_CTX_TASK_ID='insert_sql' AIRFLOW_CTX_EXECUTION_DATE='2023-12-14T02:11:55.933539+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-14T02:11:55.933539+00:00'
+[2023-12-14T02:12:22.685+0000] {sql.py:274} INFO - Executing: 
+            COPY cctv(地段, 區域, 經度, 緯度,狀態)
+            FROM 'D:/Airflow-docker/dags/data/CCTV.csv' DELIMITER ',' CSV HEADER;
+            
+[2023-12-14T02:12:22.693+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-14T02:12:22.702+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-14T02:12:22.750+0000] {sql.py:418} INFO - Running statement: 
+            COPY cctv(地段, 區域, 經度, 緯度,狀態)
+            FROM 'D:/Airflow-docker/dags/data/CCTV.csv' DELIMITER ',' CSV HEADER;
+            , parameters: None
+[2023-12-14T02:12:22.755+0000] {sql.py:427} INFO - Rows affected: 32
+[2023-12-14T02:12:22.769+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=download_cctv_data_to_postgresql, task_id=insert_sql, execution_date=20231214T021155, start_date=20231214T021222, end_date=20231214T021222
+[2023-12-14T02:12:22.808+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-14T02:12:22.830+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

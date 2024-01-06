@@ -1,0 +1,32 @@
+[2023-12-18T17:37:47.818+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_dashboard_automated_send_email.download_dashboard_automated_send_email manual__2023-12-18T17:37:46.888043+00:00 [queued]>
+[2023-12-18T17:37:47.826+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_dashboard_automated_send_email.download_dashboard_automated_send_email manual__2023-12-18T17:37:46.888043+00:00 [queued]>
+[2023-12-18T17:37:47.827+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-18T17:37:47.841+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): download_dashboard_automated_send_email> on 2023-12-18 17:37:46.888043+00:00
+[2023-12-18T17:37:47.847+0000] {standard_task_runner.py:57} INFO - Started process 171 to run task
+[2023-12-18T17:37:47.850+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'download_dashboard_automated_send_email', 'download_dashboard_automated_send_email', 'manual__2023-12-18T17:37:46.888043+00:00', '--job-id', '246', '--raw', '--subdir', 'DAGS_FOLDER/download_dashboard_automated_send_email.py', '--cfg-path', '/tmp/tmpdomq0dug']
+[2023-12-18T17:37:47.851+0000] {standard_task_runner.py:85} INFO - Job 246: Subtask download_dashboard_automated_send_email
+[2023-12-18T17:37:47.891+0000] {task_command.py:416} INFO - Running <TaskInstance: download_dashboard_automated_send_email.download_dashboard_automated_send_email manual__2023-12-18T17:37:46.888043+00:00 [running]> on host 0178a73598d5
+[2023-12-18T17:37:47.944+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='download_dashboard_automated_send_email' AIRFLOW_CTX_TASK_ID='download_dashboard_automated_send_email' AIRFLOW_CTX_EXECUTION_DATE='2023-12-18T17:37:46.888043+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-18T17:37:46.888043+00:00'
+[2023-12-18T17:38:08.537+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/download_dashboard_automated_send_email.py", line 55, in download_dashboard_automated_send_email
+    driver = webdriver.Chrome(options=chrome_options)
+  File "/home/airflow/.local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    self.service.start()
+  File "/home/airflow/.local/lib/python3.8/site-packages/selenium/webdriver/common/service.py", line 102, in start
+    self.assert_process_still_running()
+  File "/home/airflow/.local/lib/python3.8/site-packages/selenium/webdriver/common/service.py", line 115, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /home/airflow/.cache/selenium/chromedriver/linux64/120.0.6099.71/chromedriver unexpectedly exited. Status code was: 127
+
+[2023-12-18T17:38:08.557+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=download_dashboard_automated_send_email, task_id=download_dashboard_automated_send_email, execution_date=20231218T173746, start_date=20231218T173747, end_date=20231218T173808
+[2023-12-18T17:38:08.570+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 246 for task download_dashboard_automated_send_email (Message: Service /home/airflow/.cache/selenium/chromedriver/linux64/120.0.6099.71/chromedriver unexpectedly exited. Status code was: 127
+; 171)
+[2023-12-18T17:38:08.591+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-18T17:38:08.604+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

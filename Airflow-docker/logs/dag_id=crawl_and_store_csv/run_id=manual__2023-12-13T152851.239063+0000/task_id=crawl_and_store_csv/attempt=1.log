@@ -1,0 +1,13 @@
+[2023-12-13T15:28:52.803+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawl_and_store_csv.crawl_and_store_csv manual__2023-12-13T15:28:51.239063+00:00 [queued]>
+[2023-12-13T15:28:52.810+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawl_and_store_csv.crawl_and_store_csv manual__2023-12-13T15:28:51.239063+00:00 [queued]>
+[2023-12-13T15:28:52.811+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-13T15:28:52.822+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): crawl_and_store_csv> on 2023-12-13 15:28:51.239063+00:00
+[2023-12-13T15:28:52.829+0000] {standard_task_runner.py:57} INFO - Started process 8354 to run task
+[2023-12-13T15:28:52.832+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'crawl_and_store_csv', 'crawl_and_store_csv', 'manual__2023-12-13T15:28:51.239063+00:00', '--job-id', '223', '--raw', '--subdir', 'DAGS_FOLDER/crawl_and_store_csv.py', '--cfg-path', '/tmp/tmpljqb7mia']
+[2023-12-13T15:28:52.835+0000] {standard_task_runner.py:85} INFO - Job 223: Subtask crawl_and_store_csv
+[2023-12-13T15:28:52.873+0000] {task_command.py:416} INFO - Running <TaskInstance: crawl_and_store_csv.crawl_and_store_csv manual__2023-12-13T15:28:51.239063+00:00 [running]> on host 870c4047aa24
+[2023-12-13T15:28:52.935+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='crawl_and_store_csv' AIRFLOW_CTX_TASK_ID='crawl_and_store_csv' AIRFLOW_CTX_EXECUTION_DATE='2023-12-13T15:28:51.239063+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-13T15:28:51.239063+00:00'
+[2023-12-13T15:28:56.616+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-13T15:28:56.624+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=crawl_and_store_csv, task_id=crawl_and_store_csv, execution_date=20231213T152851, start_date=20231213T152852, end_date=20231213T152856
+[2023-12-13T15:28:56.665+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-13T15:28:56.681+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

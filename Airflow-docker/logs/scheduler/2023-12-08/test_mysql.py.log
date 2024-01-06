@@ -1,0 +1,490 @@
+[2023-12-08T03:25:04.917+0000] {processor.py:157} INFO - Started process (PID=23729) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T03:25:04.919+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T03:25:04.923+0000] {logging_mixin.py:154} INFO - [2023-12-08T03:25:04.922+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T03:25:05.026+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T03:25:05.078+0000] {logging_mixin.py:154} INFO - [2023-12-08T03:25:05.078+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T03:25:05.120+0000] {logging_mixin.py:154} INFO - [2023-12-08T03:25:05.119+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T03:25:05.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.296 seconds
+[2023-12-08T07:27:39.152+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:27:39.153+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:27:39.155+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:27:39.155+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:27:39.199+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:27:39.366+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:27:39.366+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:27:39.406+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:27:39.405+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:27:39.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.280 seconds
+[2023-12-08T07:28:09.662+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:28:09.663+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:28:09.666+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:09.666+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:28:09.715+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:28:09.738+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:09.738+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:28:09.762+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:09.761+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:28:09.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.136 seconds
+[2023-12-08T07:28:40.020+0000] {processor.py:157} INFO - Started process (PID=161) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:28:40.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:28:40.024+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:40.023+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:28:40.060+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:28:40.082+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:40.082+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:28:40.105+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:28:40.105+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:28:40.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.114 seconds
+[2023-12-08T07:29:10.484+0000] {processor.py:157} INFO - Started process (PID=219) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:29:10.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:29:10.489+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:10.489+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:29:10.529+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:29:10.555+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:10.554+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:29:10.580+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:10.580+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:29:10.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.126 seconds
+[2023-12-08T07:29:41.582+0000] {processor.py:157} INFO - Started process (PID=279) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:29:41.583+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:29:41.586+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:41.586+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:29:41.627+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:29:41.650+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:41.650+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:29:41.676+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:29:41.676+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:29:41.697+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.119 seconds
+[2023-12-08T07:30:11.829+0000] {processor.py:157} INFO - Started process (PID=337) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:30:11.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:30:11.850+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:11.849+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:30:11.930+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:30:11.986+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:11.985+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:30:12.057+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:12.057+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:30:12.091+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.270 seconds
+[2023-12-08T07:30:42.724+0000] {processor.py:157} INFO - Started process (PID=396) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:30:42.725+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:30:42.729+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:42.728+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:30:42.781+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:30:42.807+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:42.807+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:30:42.836+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:30:42.836+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:30:42.864+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.146 seconds
+[2023-12-08T07:31:13.092+0000] {processor.py:157} INFO - Started process (PID=455) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:31:13.094+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:31:13.097+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:13.097+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:31:13.139+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:31:13.164+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:13.164+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:31:13.189+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:13.189+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:31:13.216+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.128 seconds
+[2023-12-08T07:31:43.727+0000] {processor.py:157} INFO - Started process (PID=514) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:31:43.728+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:31:43.732+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:43.731+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:31:43.771+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:31:43.798+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:43.798+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:31:43.827+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:31:43.827+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:31:43.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.130 seconds
+[2023-12-08T07:32:14.566+0000] {processor.py:157} INFO - Started process (PID=573) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:32:14.567+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:32:14.572+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:14.572+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:32:14.610+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:32:14.639+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:14.638+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:32:14.666+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:14.666+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:32:14.687+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.125 seconds
+[2023-12-08T07:32:44.768+0000] {processor.py:157} INFO - Started process (PID=632) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:32:44.770+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:32:44.774+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:44.773+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:32:44.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:32:44.846+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:44.846+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:32:44.870+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:32:44.870+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:32:44.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.132 seconds
+[2023-12-08T07:33:15.194+0000] {processor.py:157} INFO - Started process (PID=691) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:33:15.195+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:33:15.200+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:15.199+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:33:15.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:33:15.264+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:15.264+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:33:15.292+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:15.292+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:33:15.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.126 seconds
+[2023-12-08T07:33:45.673+0000] {processor.py:157} INFO - Started process (PID=750) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:33:45.675+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:33:45.678+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:45.677+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:33:45.743+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:33:45.767+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:45.767+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:33:45.794+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:33:45.794+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:33:45.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.154 seconds
+[2023-12-08T07:34:16.082+0000] {processor.py:157} INFO - Started process (PID=809) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:34:16.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:34:16.087+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:16.087+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:34:16.134+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:34:16.181+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:16.180+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:34:16.224+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:16.224+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:34:16.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.173 seconds
+[2023-12-08T07:34:46.437+0000] {processor.py:157} INFO - Started process (PID=868) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:34:46.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:34:46.444+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:46.443+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:34:46.490+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:34:46.515+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:46.515+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:34:46.543+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:34:46.543+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:34:46.577+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.145 seconds
+[2023-12-08T07:35:17.106+0000] {processor.py:157} INFO - Started process (PID=927) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:35:17.107+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:35:17.111+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:17.110+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:35:17.153+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:35:17.179+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:17.179+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:35:17.210+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:17.210+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:35:17.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.139 seconds
+[2023-12-08T07:35:47.793+0000] {processor.py:157} INFO - Started process (PID=986) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:35:47.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:35:47.797+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:47.797+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:35:47.846+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:35:47.875+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:47.874+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:35:47.900+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:35:47.900+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:35:47.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.142 seconds
+[2023-12-08T07:36:18.153+0000] {processor.py:157} INFO - Started process (PID=1045) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:36:18.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:36:18.158+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:18.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:36:18.202+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:36:18.224+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:18.224+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:36:18.249+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:18.249+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:36:18.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.129 seconds
+[2023-12-08T07:36:48.528+0000] {processor.py:157} INFO - Started process (PID=1104) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:36:48.530+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:36:48.533+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:48.533+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:36:48.574+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:36:48.602+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:48.602+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:36:48.634+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:36:48.634+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:36:48.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.139 seconds
+[2023-12-08T07:37:19.108+0000] {processor.py:157} INFO - Started process (PID=1163) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:37:19.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:37:19.115+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:19.114+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:37:19.162+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:37:19.189+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:19.188+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:37:19.218+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:19.218+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:37:19.247+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.145 seconds
+[2023-12-08T07:37:49.616+0000] {processor.py:157} INFO - Started process (PID=1222) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:37:49.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:37:49.621+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:49.620+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:37:49.657+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:37:49.679+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:49.679+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:37:49.705+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:37:49.705+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:37:49.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.124 seconds
+[2023-12-08T07:38:19.900+0000] {processor.py:157} INFO - Started process (PID=1281) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:38:19.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:38:19.906+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:19.905+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:38:19.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:38:20.004+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:20.003+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:38:20.065+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:20.064+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:38:20.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.198 seconds
+[2023-12-08T07:38:50.299+0000] {processor.py:157} INFO - Started process (PID=1340) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:38:50.301+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:38:50.305+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:50.305+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:38:50.355+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:38:50.393+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:50.393+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:38:50.422+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:38:50.422+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:38:50.453+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.160 seconds
+[2023-12-08T07:39:20.646+0000] {processor.py:157} INFO - Started process (PID=1399) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:39:20.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:39:20.652+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:20.652+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:39:20.695+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:39:20.722+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:20.722+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:39:20.754+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:20.753+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:39:20.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.144 seconds
+[2023-12-08T07:39:51.492+0000] {processor.py:157} INFO - Started process (PID=1458) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:39:51.494+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:39:51.497+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:51.497+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:39:51.537+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:39:51.558+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:51.558+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:39:51.583+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:39:51.583+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:39:51.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.120 seconds
+[2023-12-08T07:40:21.981+0000] {processor.py:157} INFO - Started process (PID=1517) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:40:21.984+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:40:21.989+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:21.989+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:40:22.038+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:40:22.066+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:22.066+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:40:22.097+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:22.096+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:40:22.283+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.309 seconds
+[2023-12-08T07:40:52.778+0000] {processor.py:157} INFO - Started process (PID=1576) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:40:52.780+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:40:52.784+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:52.783+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:40:52.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:40:52.877+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:52.877+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:40:52.904+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:40:52.904+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:40:53.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.295 seconds
+[2023-12-08T07:41:23.342+0000] {processor.py:157} INFO - Started process (PID=1635) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:41:23.346+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:41:23.351+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:23.350+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:41:23.402+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:41:23.429+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:23.429+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:41:23.454+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:23.454+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:41:23.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.282 seconds
+[2023-12-08T07:41:53.916+0000] {processor.py:157} INFO - Started process (PID=1694) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:41:53.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:41:53.923+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:53.923+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:41:54.015+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:41:54.083+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:54.083+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:41:54.127+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:41:54.127+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:41:54.248+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.338 seconds
+[2023-12-08T07:42:24.639+0000] {processor.py:157} INFO - Started process (PID=1753) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:42:24.641+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:42:24.798+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:24.798+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:42:24.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:42:24.849+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:24.849+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:42:24.871+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:24.871+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:42:24.893+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.261 seconds
+[2023-12-08T07:42:55.419+0000] {processor.py:157} INFO - Started process (PID=1812) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:42:55.420+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:42:55.501+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:55.500+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:42:55.573+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:42:55.597+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:55.596+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:42:55.645+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:42:55.644+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:42:55.714+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.300 seconds
+[2023-12-08T07:43:26.188+0000] {processor.py:157} INFO - Started process (PID=1871) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:43:26.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:43:26.194+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:26.193+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:43:26.235+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:43:26.261+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:26.260+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:43:26.291+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:26.291+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:43:26.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.135 seconds
+[2023-12-08T07:43:56.596+0000] {processor.py:157} INFO - Started process (PID=1930) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:43:56.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:43:56.601+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:56.601+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:43:56.637+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:43:56.664+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:56.664+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:43:56.692+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:43:56.692+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:43:56.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.127 seconds
+[2023-12-08T07:44:27.235+0000] {processor.py:157} INFO - Started process (PID=1988) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:44:27.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:44:27.239+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:27.239+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:44:27.272+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:44:27.291+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:27.291+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:44:27.308+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:27.308+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:44:27.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.097 seconds
+[2023-12-08T07:44:57.447+0000] {processor.py:157} INFO - Started process (PID=2047) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:44:57.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:44:57.451+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:57.451+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:44:57.482+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:44:57.498+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:57.497+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:44:57.514+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:44:57.513+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:44:57.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.093 seconds
+[2023-12-08T07:45:28.008+0000] {processor.py:157} INFO - Started process (PID=2106) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:45:28.009+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:45:28.011+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:28.011+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:45:28.048+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:45:28.064+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:28.064+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:45:28.080+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:28.080+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:45:28.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.093 seconds
+[2023-12-08T07:45:58.479+0000] {processor.py:157} INFO - Started process (PID=2164) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:45:58.480+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:45:58.483+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:58.483+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:45:58.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:45:58.528+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:58.527+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:45:58.545+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:45:58.544+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:45:58.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.087 seconds
+[2023-12-08T07:46:29.045+0000] {processor.py:157} INFO - Started process (PID=2223) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:46:29.046+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:46:29.049+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:29.049+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:46:29.076+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:46:29.117+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:29.117+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:46:29.132+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:29.132+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:46:29.152+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.109 seconds
+[2023-12-08T07:46:59.499+0000] {processor.py:157} INFO - Started process (PID=2282) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:46:59.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:46:59.503+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:59.503+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:46:59.545+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:46:59.561+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:59.561+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:46:59.579+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:46:59.579+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:46:59.669+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.172 seconds
+[2023-12-08T07:47:30.072+0000] {processor.py:157} INFO - Started process (PID=2341) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:47:30.073+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:47:30.076+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:47:30.076+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:47:30.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:47:30.125+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:47:30.125+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:47:30.142+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:47:30.142+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:47:30.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.092 seconds
+[2023-12-08T07:48:00.786+0000] {processor.py:157} INFO - Started process (PID=2400) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:48:00.861+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:48:00.867+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:00.866+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:48:00.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:48:00.947+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:00.947+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:48:00.968+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:00.968+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:48:00.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.207 seconds
+[2023-12-08T07:48:31.772+0000] {processor.py:157} INFO - Started process (PID=2466) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:48:31.774+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:48:31.778+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:31.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:48:31.802+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:48:31.820+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:31.820+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:48:31.836+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:48:31.836+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:48:31.856+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.087 seconds
+[2023-12-08T07:49:02.159+0000] {processor.py:157} INFO - Started process (PID=2525) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:49:02.164+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:49:02.167+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:02.166+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:49:02.211+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:49:02.227+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:02.227+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:49:02.243+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:02.243+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:49:02.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.108 seconds
+[2023-12-08T07:49:32.546+0000] {processor.py:157} INFO - Started process (PID=2584) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:49:32.547+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:49:32.550+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:32.550+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:49:32.576+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:49:32.591+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:32.591+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:49:32.606+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:49:32.606+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:49:32.622+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.080 seconds
+[2023-12-08T07:50:02.739+0000] {processor.py:157} INFO - Started process (PID=2643) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:50:02.741+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:50:02.743+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:02.743+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:50:02.772+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:50:02.787+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:02.787+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:50:02.805+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:02.805+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:50:02.874+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.137 seconds
+[2023-12-08T07:50:33.335+0000] {processor.py:157} INFO - Started process (PID=2702) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:50:33.336+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:50:33.339+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:33.339+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:50:33.380+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:50:33.403+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:33.403+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:50:33.421+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:50:33.421+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:50:33.440+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.107 seconds
+[2023-12-08T07:51:03.699+0000] {processor.py:157} INFO - Started process (PID=2761) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:51:03.700+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:51:03.702+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:03.702+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:51:03.736+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:51:03.752+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:03.751+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:51:03.766+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:03.766+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:51:03.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.086 seconds
+[2023-12-08T07:51:33.896+0000] {processor.py:157} INFO - Started process (PID=2820) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:51:33.897+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:51:33.899+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:33.898+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:51:33.939+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:51:33.955+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:33.955+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:51:33.971+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:51:33.971+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:51:33.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.097 seconds
+[2023-12-08T07:52:04.155+0000] {processor.py:157} INFO - Started process (PID=2879) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:52:04.156+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:52:04.159+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:04.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:52:04.197+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:52:04.213+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:04.213+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:52:04.229+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:04.229+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:52:04.248+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.096 seconds
+[2023-12-08T07:52:34.598+0000] {processor.py:157} INFO - Started process (PID=2938) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:52:34.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:52:34.605+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:34.604+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:52:34.665+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:52:34.691+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:34.691+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:52:34.720+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:52:34.719+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:52:34.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.162 seconds
+[2023-12-08T07:53:05.056+0000] {processor.py:157} INFO - Started process (PID=2997) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:53:05.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:53:05.059+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:05.059+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:53:05.094+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:53:05.112+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:05.111+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:53:05.129+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:05.129+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:53:05.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.095 seconds
+[2023-12-08T07:53:35.463+0000] {processor.py:157} INFO - Started process (PID=3056) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:53:35.468+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:53:35.471+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:35.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:53:35.508+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:53:35.525+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:35.525+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:53:35.541+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:53:35.541+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:53:35.559+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.099 seconds
+[2023-12-08T07:54:05.773+0000] {processor.py:157} INFO - Started process (PID=3115) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:54:05.774+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:54:05.779+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:05.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:54:05.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:54:05.851+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:05.850+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:54:05.878+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:05.877+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:54:05.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.136 seconds
+[2023-12-08T07:54:36.129+0000] {processor.py:157} INFO - Started process (PID=3174) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:54:36.130+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:54:36.132+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:36.132+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:54:36.162+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:54:36.178+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:36.177+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:54:36.194+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:54:36.194+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:54:36.211+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.084 seconds
+[2023-12-08T07:55:06.678+0000] {processor.py:157} INFO - Started process (PID=3232) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:55:06.679+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:55:06.682+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:06.681+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:55:06.711+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:55:06.729+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:06.728+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:55:06.749+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:06.749+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:55:06.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.090 seconds
+[2023-12-08T07:55:37.078+0000] {processor.py:157} INFO - Started process (PID=3291) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:55:37.079+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:55:37.082+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:37.082+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:55:37.117+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:55:37.134+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:37.134+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:55:37.152+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:55:37.152+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:55:37.173+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.099 seconds
+[2023-12-08T07:56:07.442+0000] {processor.py:157} INFO - Started process (PID=3350) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:56:07.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:56:07.445+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:07.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:56:07.478+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:56:07.494+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:07.493+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:56:07.513+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:07.513+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:56:07.576+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.138 seconds
+[2023-12-08T07:56:38.242+0000] {processor.py:157} INFO - Started process (PID=3409) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:56:38.243+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:56:38.246+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:38.245+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:56:38.277+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:56:38.295+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:38.295+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:56:38.319+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:56:38.319+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:56:38.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.100 seconds
+[2023-12-08T07:57:08.984+0000] {processor.py:157} INFO - Started process (PID=3468) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:57:08.985+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:57:08.987+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:08.986+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:57:09.023+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:57:09.039+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:09.039+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:57:09.056+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:09.056+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:57:09.074+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.093 seconds
+[2023-12-08T07:57:39.477+0000] {processor.py:157} INFO - Started process (PID=3527) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:57:39.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:57:39.480+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:39.480+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:57:39.506+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:57:39.523+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:39.523+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:57:39.540+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:57:39.540+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:57:39.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.079 seconds
+[2023-12-08T07:58:10.085+0000] {processor.py:157} INFO - Started process (PID=3586) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:58:10.086+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:58:10.088+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:10.088+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:58:10.127+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:58:10.144+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:10.144+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:58:10.160+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:10.160+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:58:10.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.096 seconds
+[2023-12-08T07:58:40.456+0000] {processor.py:157} INFO - Started process (PID=3645) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:58:40.457+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:58:40.459+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:40.459+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:58:40.489+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:58:40.507+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:40.506+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:58:40.523+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:58:40.523+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:58:40.545+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.092 seconds
+[2023-12-08T07:59:10.901+0000] {processor.py:157} INFO - Started process (PID=3704) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:59:10.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:59:10.905+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:10.904+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:59:10.945+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:59:10.963+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:10.963+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:59:10.981+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:10.980+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:59:10.999+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.103 seconds
+[2023-12-08T07:59:41.638+0000] {processor.py:157} INFO - Started process (PID=3763) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:59:41.639+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T07:59:41.641+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:41.641+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:59:41.675+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T07:59:41.692+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:41.692+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T07:59:41.709+0000] {logging_mixin.py:154} INFO - [2023-12-08T07:59:41.708+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T07:59:41.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.092 seconds
+[2023-12-08T08:00:11.966+0000] {processor.py:157} INFO - Started process (PID=3822) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:00:11.967+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T08:00:11.969+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:11.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:00:12.003+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:00:12.023+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:12.022+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:00:12.041+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:12.041+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T08:00:12.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.098 seconds
+[2023-12-08T08:00:42.281+0000] {processor.py:157} INFO - Started process (PID=3881) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:00:42.283+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T08:00:42.285+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:42.285+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:00:42.325+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:00:42.341+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:42.341+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:00:42.359+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:00:42.358+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T08:00:42.377+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.098 seconds
+[2023-12-08T08:01:12.518+0000] {processor.py:157} INFO - Started process (PID=3939) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:01:12.519+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T08:01:12.521+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:12.521+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:01:12.557+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:01:12.575+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:12.575+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:01:12.592+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:12.592+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T08:01:12.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.095 seconds
+[2023-12-08T08:01:42.701+0000] {processor.py:157} INFO - Started process (PID=3997) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:01:42.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T08:01:42.705+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:42.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:01:42.752+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:01:42.769+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:42.769+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:01:42.788+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:01:42.788+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T08:01:42.807+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.110 seconds
+[2023-12-08T08:02:13.145+0000] {processor.py:157} INFO - Started process (PID=4055) to work on /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:02:13.147+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_mysql.py for tasks to queue
+[2023-12-08T08:02:13.150+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:02:13.149+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:02:13.182+0000] {processor.py:839} INFO - DAG(s) dict_keys(['test_mysql_connection_dag']) retrieved from /opt/airflow/dags/test_mysql.py
+[2023-12-08T08:02:13.199+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:02:13.199+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-08T08:02:13.217+0000] {logging_mixin.py:154} INFO - [2023-12-08T08:02:13.217+0000] {dag.py:3722} INFO - Setting next_dagrun for test_mysql_connection_dag to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-12-08T08:02:13.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_mysql.py took 0.095 seconds

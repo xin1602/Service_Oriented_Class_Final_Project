@@ -1,0 +1,16 @@
+[2023-12-19T19:18:28.598+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: safetyWarning_etl_storeToPostgres.drop_safetyWarning_table manual__2023-12-19T19:18:17.218621+00:00 [queued]>
+[2023-12-19T19:18:28.605+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: safetyWarning_etl_storeToPostgres.drop_safetyWarning_table manual__2023-12-19T19:18:17.218621+00:00 [queued]>
+[2023-12-19T19:18:28.606+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-19T19:18:28.615+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): drop_safetyWarning_table> on 2023-12-19 19:18:17.218621+00:00
+[2023-12-19T19:18:28.623+0000] {standard_task_runner.py:57} INFO - Started process 15309 to run task
+[2023-12-19T19:18:28.626+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'safetyWarning_etl_storeToPostgres', 'drop_safetyWarning_table', 'manual__2023-12-19T19:18:17.218621+00:00', '--job-id', '458', '--raw', '--subdir', 'DAGS_FOLDER/safetyWarning_etl_storeToPostgres.py', '--cfg-path', '/tmp/tmpfwrc2r86']
+[2023-12-19T19:18:28.628+0000] {standard_task_runner.py:85} INFO - Job 458: Subtask drop_safetyWarning_table
+[2023-12-19T19:18:28.669+0000] {task_command.py:416} INFO - Running <TaskInstance: safetyWarning_etl_storeToPostgres.drop_safetyWarning_table manual__2023-12-19T19:18:17.218621+00:00 [running]> on host f97daee24bd9
+[2023-12-19T19:18:28.728+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='safetyWarning_etl_storeToPostgres' AIRFLOW_CTX_TASK_ID='drop_safetyWarning_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-19T19:18:17.218621+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-19T19:18:17.218621+00:00'
+[2023-12-19T19:18:28.730+0000] {sql.py:274} INFO - Executing: DROP TABLE IF EXISTS safety_warning;
+[2023-12-19T19:18:28.738+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:18:28.748+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:18:28.790+0000] {sql.py:418} INFO - Running statement: DROP TABLE IF EXISTS safety_warning;, parameters: None
+[2023-12-19T19:18:28.801+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=safetyWarning_etl_storeToPostgres, task_id=drop_safetyWarning_table, execution_date=20231219T191817, start_date=20231219T191828, end_date=20231219T191828
+[2023-12-19T19:18:28.839+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T19:18:28.859+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

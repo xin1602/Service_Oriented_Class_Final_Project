@@ -1,0 +1,16 @@
+[2023-12-12T18:09:35.348+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawl_and_store_csv_01.crawl_and_store_csv manual__2023-12-12T18:09:28.189121+00:00 [queued]>
+[2023-12-12T18:09:35.357+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawl_and_store_csv_01.crawl_and_store_csv manual__2023-12-12T18:09:28.189121+00:00 [queued]>
+[2023-12-12T18:09:35.358+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-12T18:09:35.369+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): crawl_and_store_csv> on 2023-12-12 18:09:28.189121+00:00
+[2023-12-12T18:09:35.375+0000] {standard_task_runner.py:57} INFO - Started process 2437 to run task
+[2023-12-12T18:09:35.378+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'crawl_and_store_csv_01', 'crawl_and_store_csv', 'manual__2023-12-12T18:09:28.189121+00:00', '--job-id', '142', '--raw', '--subdir', 'DAGS_FOLDER/crawl_and_store_csv.py', '--cfg-path', '/tmp/tmprkw84qug']
+[2023-12-12T18:09:35.381+0000] {standard_task_runner.py:85} INFO - Job 142: Subtask crawl_and_store_csv
+[2023-12-12T18:09:35.421+0000] {task_command.py:416} INFO - Running <TaskInstance: crawl_and_store_csv_01.crawl_and_store_csv manual__2023-12-12T18:09:28.189121+00:00 [running]> on host 7fd8dd875aa1
+[2023-12-12T18:09:35.482+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='crawl_and_store_csv_01' AIRFLOW_CTX_TASK_ID='crawl_and_store_csv' AIRFLOW_CTX_EXECUTION_DATE='2023-12-12T18:09:28.189121+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-12T18:09:28.189121+00:00'
+[2023-12-12T18:09:39.121+0000] {logging_mixin.py:154} INFO - DAG Directory: /opt/***/dags
+[2023-12-12T18:09:39.122+0000] {logging_mixin.py:154} INFO - Log Path: /opt/***/dags/camera.csv
+[2023-12-12T18:09:39.122+0000] {logging_mixin.py:154} INFO - Current working directory: /opt/***
+[2023-12-12T18:09:39.125+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-12T18:09:39.133+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=crawl_and_store_csv_01, task_id=crawl_and_store_csv, execution_date=20231212T180928, start_date=20231212T180935, end_date=20231212T180939
+[2023-12-12T18:09:39.245+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T18:09:39.258+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

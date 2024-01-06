@@ -1,0 +1,23 @@
+[2023-12-19T11:02:41.891+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: service_oriented_class_project.insert_traffic manual__2023-12-19T11:02:32.346380+00:00 [queued]>
+[2023-12-19T11:02:41.899+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: service_oriented_class_project.insert_traffic manual__2023-12-19T11:02:32.346380+00:00 [queued]>
+[2023-12-19T11:02:41.900+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-19T11:02:41.910+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_traffic> on 2023-12-19 11:02:32.346380+00:00
+[2023-12-19T11:02:41.919+0000] {standard_task_runner.py:57} INFO - Started process 7636 to run task
+[2023-12-19T11:02:41.922+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'service_oriented_class_project', 'insert_traffic', 'manual__2023-12-19T11:02:32.346380+00:00', '--job-id', '446', '--raw', '--subdir', 'DAGS_FOLDER/service_oriented_class_project.py', '--cfg-path', '/tmp/tmpi08r2omt']
+[2023-12-19T11:02:41.925+0000] {standard_task_runner.py:85} INFO - Job 446: Subtask insert_traffic
+[2023-12-19T11:02:41.963+0000] {task_command.py:416} INFO - Running <TaskInstance: service_oriented_class_project.insert_traffic manual__2023-12-19T11:02:32.346380+00:00 [running]> on host f97daee24bd9
+[2023-12-19T11:02:42.028+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='service_oriented_class_project' AIRFLOW_CTX_TASK_ID='insert_traffic' AIRFLOW_CTX_EXECUTION_DATE='2023-12-19T11:02:32.346380+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-19T11:02:32.346380+00:00'
+[2023-12-19T11:02:42.029+0000] {sql.py:274} INFO - Executing: 
+            COPY traffic(年,月,日,日期,受傷人數,市區鄉鎮,是否飲酒,時間,死亡人數,當事者順位,白天or夜晚,經度,緯度,縣市,道路類型)
+            FROM 'D:/Airflow-docker/dags/data/traffic_ETL.csv' DELIMITER ',' CSV HEADER;
+            
+[2023-12-19T11:02:42.036+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T11:02:42.044+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T11:02:42.081+0000] {sql.py:418} INFO - Running statement: 
+            COPY traffic(年,月,日,日期,受傷人數,市區鄉鎮,是否飲酒,時間,死亡人數,當事者順位,白天or夜晚,經度,緯度,縣市,道路類型)
+            FROM 'D:/Airflow-docker/dags/data/traffic_ETL.csv' DELIMITER ',' CSV HEADER;
+            , parameters: None
+[2023-12-19T11:02:42.135+0000] {sql.py:427} INFO - Rows affected: 11154
+[2023-12-19T11:02:42.146+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=service_oriented_class_project, task_id=insert_traffic, execution_date=20231219T110232, start_date=20231219T110241, end_date=20231219T110242
+[2023-12-19T11:02:42.174+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T11:02:42.193+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

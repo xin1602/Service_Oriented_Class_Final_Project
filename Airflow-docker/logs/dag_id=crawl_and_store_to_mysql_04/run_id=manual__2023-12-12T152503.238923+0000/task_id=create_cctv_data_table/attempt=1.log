@@ -1,0 +1,32 @@
+[2023-12-12T15:25:05.439+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawl_and_store_to_mysql_04.create_cctv_data_table manual__2023-12-12T15:25:03.238923+00:00 [queued]>
+[2023-12-12T15:25:05.447+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawl_and_store_to_mysql_04.create_cctv_data_table manual__2023-12-12T15:25:03.238923+00:00 [queued]>
+[2023-12-12T15:25:05.448+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-12T15:25:05.458+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_cctv_data_table> on 2023-12-12 15:25:03.238923+00:00
+[2023-12-12T15:25:05.464+0000] {standard_task_runner.py:57} INFO - Started process 5249 to run task
+[2023-12-12T15:25:05.467+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'crawl_and_store_to_mysql_04', 'create_cctv_data_table', 'manual__2023-12-12T15:25:03.238923+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/crawl_and_store_to_mysql_04.py', '--cfg-path', '/tmp/tmpolelh12n']
+[2023-12-12T15:25:05.469+0000] {standard_task_runner.py:85} INFO - Job 104: Subtask create_cctv_data_table
+[2023-12-12T15:25:05.504+0000] {task_command.py:416} INFO - Running <TaskInstance: crawl_and_store_to_mysql_04.create_cctv_data_table manual__2023-12-12T15:25:03.238923+00:00 [running]> on host 7fd8dd875aa1
+[2023-12-12T15:25:05.555+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='crawl_and_store_to_mysql_04' AIRFLOW_CTX_TASK_ID='create_cctv_data_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-12T15:25:03.238923+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-12T15:25:03.238923+00:00'
+[2023-12-12T15:25:05.557+0000] {sql.py:274} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS cctv_data (
+                id SERIAL PRIMARY KEY,
+                location VARCHAR(255),
+                area VARCHAR(255),
+                longitude VARCHAR(20),
+                latitude VARCHAR(20)
+            );
+            
+[2023-12-12T15:25:05.563+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T15:25:05.568+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T15:25:05.606+0000] {sql.py:418} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS cctv_data (
+                id SERIAL PRIMARY KEY,
+                location VARCHAR(255),
+                area VARCHAR(255),
+                longitude VARCHAR(20),
+                latitude VARCHAR(20)
+            );
+            , parameters: None
+[2023-12-12T15:25:05.615+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=crawl_and_store_to_mysql_04, task_id=create_cctv_data_table, execution_date=20231212T152503, start_date=20231212T152505, end_date=20231212T152505
+[2023-12-12T15:25:05.639+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T15:25:05.657+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

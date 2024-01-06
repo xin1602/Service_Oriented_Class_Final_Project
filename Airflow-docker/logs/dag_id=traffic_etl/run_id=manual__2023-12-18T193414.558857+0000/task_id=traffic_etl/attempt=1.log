@@ -1,0 +1,29 @@
+[2023-12-18T19:34:16.008+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: traffic_etl.traffic_etl manual__2023-12-18T19:34:14.558857+00:00 [queued]>
+[2023-12-18T19:34:16.016+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: traffic_etl.traffic_etl manual__2023-12-18T19:34:14.558857+00:00 [queued]>
+[2023-12-18T19:34:16.021+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-18T19:34:16.032+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): traffic_etl> on 2023-12-18 19:34:14.558857+00:00
+[2023-12-18T19:34:16.040+0000] {standard_task_runner.py:57} INFO - Started process 1288 to run task
+[2023-12-18T19:34:16.043+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'traffic_etl', 'traffic_etl', 'manual__2023-12-18T19:34:14.558857+00:00', '--job-id', '257', '--raw', '--subdir', 'DAGS_FOLDER/traffic_ETL.py', '--cfg-path', '/tmp/tmpkqb6vp42']
+[2023-12-18T19:34:16.045+0000] {standard_task_runner.py:85} INFO - Job 257: Subtask traffic_etl
+[2023-12-18T19:34:16.117+0000] {task_command.py:416} INFO - Running <TaskInstance: traffic_etl.traffic_etl manual__2023-12-18T19:34:14.558857+00:00 [running]> on host 8833c94e6466
+[2023-12-18T19:34:16.321+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='traffic_etl' AIRFLOW_CTX_TASK_ID='traffic_etl' AIRFLOW_CTX_EXECUTION_DATE='2023-12-18T19:34:14.558857+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-18T19:34:14.558857+00:00'
+[2023-12-18T19:34:16.341+0000] {logging_mixin.py:154} INFO - Data loaded from /opt/***/dags/data/CCTV.csv
+[2023-12-18T19:34:16.346+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/traffic_ETL.py", line 48, in traffic_etl
+    api_data = api_data[selected_columns]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3767, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 5877, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 5938, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['發生日期', '發生時間', 'GPS經度', 'GPS緯度', '地址類型名稱', '發生縣市名稱', '發生市區鄉鎮名稱',\n       '死亡人數_2_30日內', '受傷人數', '光線名稱', '當事者順位', '飲酒情形名稱'],\n      dtype='object')] are in the [columns]"
+[2023-12-18T19:34:16.361+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=traffic_etl, task_id=traffic_etl, execution_date=20231218T193414, start_date=20231218T193416, end_date=20231218T193416
+[2023-12-18T19:34:16.370+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 257 for task traffic_etl ("None of [Index(['發生日期', '發生時間', 'GPS經度', 'GPS緯度', '地址類型名稱', '發生縣市名稱', '發生市區鄉鎮名稱',\n       '死亡人數_2_30日內', '受傷人數', '光線名稱', '當事者順位', '飲酒情形名稱'],\n      dtype='object')] are in the [columns]"; 1288)
+[2023-12-18T19:34:16.417+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-18T19:34:16.429+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

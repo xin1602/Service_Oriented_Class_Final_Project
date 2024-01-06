@@ -1,0 +1,16 @@
+[2023-12-13T15:29:45.702+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csvData_insert_postgresql.delete_data manual__2023-12-13T15:29:43.849026+00:00 [queued]>
+[2023-12-13T15:29:45.708+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csvData_insert_postgresql.delete_data manual__2023-12-13T15:29:43.849026+00:00 [queued]>
+[2023-12-13T15:29:45.709+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-13T15:29:45.720+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): delete_data> on 2023-12-13 15:29:43.849026+00:00
+[2023-12-13T15:29:45.726+0000] {standard_task_runner.py:57} INFO - Started process 8381 to run task
+[2023-12-13T15:29:45.729+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csvData_insert_postgresql', 'delete_data', 'manual__2023-12-13T15:29:43.849026+00:00', '--job-id', '227', '--raw', '--subdir', 'DAGS_FOLDER/csvData_insert_postgresql.py', '--cfg-path', '/tmp/tmpls9qpo5c']
+[2023-12-13T15:29:45.732+0000] {standard_task_runner.py:85} INFO - Job 227: Subtask delete_data
+[2023-12-13T15:29:45.770+0000] {task_command.py:416} INFO - Running <TaskInstance: csvData_insert_postgresql.delete_data manual__2023-12-13T15:29:43.849026+00:00 [running]> on host 870c4047aa24
+[2023-12-13T15:29:45.846+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='csvData_insert_postgresql' AIRFLOW_CTX_TASK_ID='delete_data' AIRFLOW_CTX_EXECUTION_DATE='2023-12-13T15:29:43.849026+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-13T15:29:43.849026+00:00'
+[2023-12-13T15:29:45.848+0000] {sql.py:274} INFO - Executing: DROP TABLE IF EXISTS cctv_2;
+[2023-12-13T15:29:45.855+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T15:29:45.863+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T15:29:45.902+0000] {sql.py:418} INFO - Running statement: DROP TABLE IF EXISTS cctv_2;, parameters: None
+[2023-12-13T15:29:45.917+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=csvData_insert_postgresql, task_id=delete_data, execution_date=20231213T152943, start_date=20231213T152945, end_date=20231213T152945
+[2023-12-13T15:29:45.943+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-13T15:29:45.962+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

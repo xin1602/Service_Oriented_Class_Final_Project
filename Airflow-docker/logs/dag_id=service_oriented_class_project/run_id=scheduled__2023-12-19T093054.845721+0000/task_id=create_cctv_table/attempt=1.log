@@ -1,0 +1,36 @@
+[2023-12-20T09:31:04.360+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: service_oriented_class_project.create_cctv_table scheduled__2023-12-19T09:30:54.845721+00:00 [queued]>
+[2023-12-20T09:31:04.369+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: service_oriented_class_project.create_cctv_table scheduled__2023-12-19T09:30:54.845721+00:00 [queued]>
+[2023-12-20T09:31:04.370+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-20T09:31:04.382+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_cctv_table> on 2023-12-19 09:30:54.845721+00:00
+[2023-12-20T09:31:04.391+0000] {standard_task_runner.py:57} INFO - Started process 22279 to run task
+[2023-12-20T09:31:04.394+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'service_oriented_class_project', 'create_cctv_table', 'scheduled__2023-12-19T09:30:54.845721+00:00', '--job-id', '533', '--raw', '--subdir', 'DAGS_FOLDER/service_oriented_class_project.py', '--cfg-path', '/tmp/tmpm7ww3p9a']
+[2023-12-20T09:31:04.397+0000] {standard_task_runner.py:85} INFO - Job 533: Subtask create_cctv_table
+[2023-12-20T09:31:04.445+0000] {task_command.py:416} INFO - Running <TaskInstance: service_oriented_class_project.create_cctv_table scheduled__2023-12-19T09:30:54.845721+00:00 [running]> on host f97daee24bd9
+[2023-12-20T09:31:04.678+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='service_oriented_class_project' AIRFLOW_CTX_TASK_ID='create_cctv_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-19T09:30:54.845721+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-19T09:30:54.845721+00:00'
+[2023-12-20T09:31:04.680+0000] {sql.py:274} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS cctv (
+            id SERIAL PRIMARY KEY,
+            地段 VARCHAR(255),
+            區域 VARCHAR(255),
+            經度 NUMERIC, -- 或者使用 FLOAT
+            緯度 NUMERIC, -- 或者使用 FLOAT
+            狀態 VARCHAR(10),
+            監視器種類 VARCHAR(10)
+            );
+            
+[2023-12-20T09:31:04.691+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T09:31:04.698+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T09:31:04.738+0000] {sql.py:418} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS cctv (
+            id SERIAL PRIMARY KEY,
+            地段 VARCHAR(255),
+            區域 VARCHAR(255),
+            經度 NUMERIC, -- 或者使用 FLOAT
+            緯度 NUMERIC, -- 或者使用 FLOAT
+            狀態 VARCHAR(10),
+            監視器種類 VARCHAR(10)
+            );
+            , parameters: None
+[2023-12-20T09:31:04.762+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=service_oriented_class_project, task_id=create_cctv_table, execution_date=20231219T093054, start_date=20231220T093104, end_date=20231220T093104
+[2023-12-20T09:31:04.808+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T09:31:04.828+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

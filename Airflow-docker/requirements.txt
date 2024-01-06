@@ -1,0 +1,6 @@
+scikit-learn==0.24.2
+pymysql
+apache-airflow-providers-postgres
+pytest==7.4.2
+requests==2.31.0
+yfinance

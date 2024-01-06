@@ -1,0 +1,58 @@
+[2023-12-19T03:16:07.265+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: traffic_etl_storeToPostgres.create_traffic_data_table manual__2023-12-19T03:15:59.892571+00:00 [queued]>
+[2023-12-19T03:16:07.274+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: traffic_etl_storeToPostgres.create_traffic_data_table manual__2023-12-19T03:15:59.892571+00:00 [queued]>
+[2023-12-19T03:16:07.275+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-19T03:16:07.285+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_traffic_data_table> on 2023-12-19 03:15:59.892571+00:00
+[2023-12-19T03:16:07.292+0000] {standard_task_runner.py:57} INFO - Started process 129 to run task
+[2023-12-19T03:16:07.295+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'traffic_etl_storeToPostgres', 'create_traffic_data_table', 'manual__2023-12-19T03:15:59.892571+00:00', '--job-id', '314', '--raw', '--subdir', 'DAGS_FOLDER/traffic_etl_storeToPostgres.py', '--cfg-path', '/tmp/tmpphlw_u1m']
+[2023-12-19T03:16:07.297+0000] {standard_task_runner.py:85} INFO - Job 314: Subtask create_traffic_data_table
+[2023-12-19T03:16:07.335+0000] {task_command.py:416} INFO - Running <TaskInstance: traffic_etl_storeToPostgres.create_traffic_data_table manual__2023-12-19T03:15:59.892571+00:00 [running]> on host f97daee24bd9
+[2023-12-19T03:16:07.517+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='traffic_etl_storeToPostgres' AIRFLOW_CTX_TASK_ID='create_traffic_data_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-19T03:15:59.892571+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-19T03:15:59.892571+00:00'
+[2023-12-19T03:16:07.518+0000] {sql.py:274} INFO - Executing: 
+
+            CREATE TABLE traffic (
+                id SERIAL PRIMARY KEY,
+                年 INTEGER,
+                月 INTEGER,
+                日 INTEGER,
+                日期 DATE,
+                受傷人數 INTEGER,
+                市區鄉鎮 VARCHAR(50),
+                是否飲酒 VARCHAR(255),
+                時間 INTEGER,
+                死亡人數 INTEGER,
+                當事者順位 INTEGER,
+                白天or夜晚 VARCHAR(10),
+                經度 DOUBLE PRECISION,
+                緯度 DOUBLE PRECISION,
+                縣市 VARCHAR(50),
+                道路類型 VARCHAR(20)
+            );
+
+            
+[2023-12-19T03:16:07.525+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T03:16:07.531+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T03:16:07.685+0000] {sql.py:418} INFO - Running statement: 
+
+            CREATE TABLE traffic (
+                id SERIAL PRIMARY KEY,
+                年 INTEGER,
+                月 INTEGER,
+                日 INTEGER,
+                日期 DATE,
+                受傷人數 INTEGER,
+                市區鄉鎮 VARCHAR(50),
+                是否飲酒 VARCHAR(255),
+                時間 INTEGER,
+                死亡人數 INTEGER,
+                當事者順位 INTEGER,
+                白天or夜晚 VARCHAR(10),
+                經度 DOUBLE PRECISION,
+                緯度 DOUBLE PRECISION,
+                縣市 VARCHAR(50),
+                道路類型 VARCHAR(20)
+            );
+
+            , parameters: None
+[2023-12-19T03:16:07.704+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=traffic_etl_storeToPostgres, task_id=create_traffic_data_table, execution_date=20231219T031559, start_date=20231219T031607, end_date=20231219T031607
+[2023-12-19T03:16:07.749+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T03:16:07.765+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,36 @@
+[2023-12-19T04:06:28.508+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: steal_etl_storeToPostgres.insert_sql manual__2023-12-19T04:06:20.879788+00:00 [queued]>
+[2023-12-19T04:06:28.516+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: steal_etl_storeToPostgres.insert_sql manual__2023-12-19T04:06:20.879788+00:00 [queued]>
+[2023-12-19T04:06:28.516+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-19T04:06:28.527+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_sql> on 2023-12-19 04:06:20.879788+00:00
+[2023-12-19T04:06:28.535+0000] {standard_task_runner.py:57} INFO - Started process 1003 to run task
+[2023-12-19T04:06:28.538+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'steal_etl_storeToPostgres', 'insert_sql', 'manual__2023-12-19T04:06:20.879788+00:00', '--job-id', '352', '--raw', '--subdir', 'DAGS_FOLDER/steal_etl_storeToPostgres.py', '--cfg-path', '/tmp/tmp5d_zuyd8']
+[2023-12-19T04:06:28.541+0000] {standard_task_runner.py:85} INFO - Job 352: Subtask insert_sql
+[2023-12-19T04:06:28.580+0000] {task_command.py:416} INFO - Running <TaskInstance: steal_etl_storeToPostgres.insert_sql manual__2023-12-19T04:06:20.879788+00:00 [running]> on host f97daee24bd9
+[2023-12-19T04:06:28.767+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='christinelee1114@gmail.com' AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='steal_etl_storeToPostgres' AIRFLOW_CTX_TASK_ID='insert_sql' AIRFLOW_CTX_EXECUTION_DATE='2023-12-19T04:06:20.879788+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-19T04:06:20.879788+00:00'
+[2023-12-19T04:06:28.768+0000] {sql.py:274} INFO - Executing: 
+            COPY steal(年,月,日,日期,分局,所,經度,緯度,種類)
+            FROM 'D:/Airflow-docker/dags/data/steal_ETL.csv' DELIMITER ',' CSV HEADER;
+            
+[2023-12-19T04:06:28.773+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:06:28.779+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:06:28.816+0000] {sql.py:418} INFO - Running statement: 
+            COPY steal(年,月,日,日期,分局,所,經度,緯度,種類)
+            FROM 'D:/Airflow-docker/dags/data/steal_ETL.csv' DELIMITER ',' CSV HEADER;
+            , parameters: None
+[2023-12-19T04:06:28.818+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.DatetimeFieldOverflow: date/time field value out of range: "1090229"
+CONTEXT:  COPY steal, line 42, column 日期: "1090229"
+
+[2023-12-19T04:06:28.825+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=steal_etl_storeToPostgres, task_id=insert_sql, execution_date=20231219T040620, start_date=20231219T040628, end_date=20231219T040628
+[2023-12-19T04:06:28.835+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 352 for task insert_sql (date/time field value out of range: "1090229"
+CONTEXT:  COPY steal, line 42, column 日期: "1090229"
+; 1003)
+[2023-12-19T04:06:28.871+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-19T04:06:28.889+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

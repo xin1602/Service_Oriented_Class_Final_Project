@@ -1,0 +1,420 @@
+[2023-12-18T19:45:08.291+0000] {processor.py:157} INFO - Started process (PID=2985) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:45:08.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:45:08.294+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:45:08.294+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:45:08.569+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:45:08.649+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:45:08.648+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:45:08.665+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:45:08.665+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:45:08.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.403 seconds
+[2023-12-18T19:45:39.616+0000] {processor.py:157} INFO - Started process (PID=3003) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:45:39.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:45:39.618+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:45:39.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:45:39.862+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:45:39.882+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:45:39.881+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:45:39.899+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:45:39.899+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:45:39.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.304 seconds
+[2023-12-18T19:46:10.030+0000] {processor.py:157} INFO - Started process (PID=3021) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:46:10.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:46:10.033+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:46:10.032+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:46:10.346+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:46:10.451+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:46:10.451+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:46:10.472+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:46:10.471+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:46:10.504+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.477 seconds
+[2023-12-18T19:46:40.868+0000] {processor.py:157} INFO - Started process (PID=3039) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:46:40.869+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:46:40.870+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:46:40.870+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:46:41.124+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:46:41.145+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:46:41.145+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:46:41.164+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:46:41.163+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:46:41.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.315 seconds
+[2023-12-18T19:47:11.957+0000] {processor.py:157} INFO - Started process (PID=3057) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:47:11.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:47:11.959+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:47:11.958+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:47:12.217+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:47:12.236+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:47:12.236+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:47:12.253+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:47:12.253+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:47:12.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.314 seconds
+[2023-12-18T19:47:42.448+0000] {processor.py:157} INFO - Started process (PID=3075) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:47:42.449+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:47:42.450+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:47:42.449+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:47:42.673+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:47:42.693+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:47:42.693+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:47:42.709+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:47:42.709+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:47:42.723+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.278 seconds
+[2023-12-18T19:48:12.857+0000] {processor.py:157} INFO - Started process (PID=3093) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:48:12.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:48:12.859+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:48:12.858+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:48:13.113+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:48:13.131+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:48:13.131+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:48:13.148+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:48:13.148+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:48:13.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.310 seconds
+[2023-12-18T19:48:43.613+0000] {processor.py:157} INFO - Started process (PID=3111) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:48:43.614+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:48:43.615+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:48:43.615+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:48:43.863+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:48:43.883+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:48:43.882+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:48:43.899+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:48:43.899+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:48:43.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.307 seconds
+[2023-12-18T19:49:14.884+0000] {processor.py:157} INFO - Started process (PID=3129) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:49:14.885+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:49:14.886+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:49:14.886+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:49:15.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:49:15.141+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:49:15.140+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:49:15.156+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:49:15.156+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:49:15.170+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.289 seconds
+[2023-12-18T19:49:45.273+0000] {processor.py:157} INFO - Started process (PID=3148) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:49:45.274+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:49:45.275+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:49:45.275+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:49:45.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:49:45.552+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:49:45.552+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:49:45.573+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:49:45.573+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:49:45.591+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.321 seconds
+[2023-12-18T19:50:15.774+0000] {processor.py:157} INFO - Started process (PID=3166) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:50:15.775+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:50:15.776+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:50:15.776+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:50:16.007+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:50:16.026+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:50:16.026+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:50:16.042+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:50:16.041+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:50:16.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.285 seconds
+[2023-12-18T19:50:46.559+0000] {processor.py:157} INFO - Started process (PID=3183) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:50:46.562+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:50:46.562+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:50:46.562+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:50:46.791+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:50:46.812+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:50:46.811+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:50:46.828+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:50:46.827+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:50:46.843+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.287 seconds
+[2023-12-18T19:51:17.029+0000] {processor.py:157} INFO - Started process (PID=3201) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:51:17.031+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:51:17.033+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:51:17.032+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:51:17.305+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:51:17.326+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:51:17.325+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:51:17.346+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:51:17.345+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:51:17.379+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.353 seconds
+[2023-12-18T19:51:47.490+0000] {processor.py:157} INFO - Started process (PID=3227) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:51:47.491+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:51:47.492+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:51:47.492+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:51:47.733+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:51:47.753+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:51:47.753+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:51:47.769+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:51:47.769+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:51:47.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.299 seconds
+[2023-12-18T19:52:18.651+0000] {processor.py:157} INFO - Started process (PID=3244) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:52:18.652+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:52:18.653+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:52:18.653+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:52:18.910+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:52:18.939+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:52:18.937+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:52:18.963+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:52:18.963+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:52:18.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.332 seconds
+[2023-12-18T19:52:49.207+0000] {processor.py:157} INFO - Started process (PID=3262) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:52:49.208+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:52:49.209+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:52:49.209+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:52:49.457+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:52:49.477+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:52:49.477+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:52:49.494+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:52:49.494+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:52:49.511+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.308 seconds
+[2023-12-18T19:53:19.657+0000] {processor.py:157} INFO - Started process (PID=3280) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:53:19.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:53:19.659+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:53:19.659+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:53:19.901+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:53:19.920+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:53:19.920+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:53:19.937+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:53:19.936+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:53:19.955+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.301 seconds
+[2023-12-18T19:53:50.141+0000] {processor.py:157} INFO - Started process (PID=3298) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:53:50.142+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:53:50.143+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:53:50.142+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:53:50.378+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:53:50.398+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:53:50.398+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:53:50.414+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:53:50.414+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:53:50.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.292 seconds
+[2023-12-18T19:54:20.615+0000] {processor.py:157} INFO - Started process (PID=3316) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:54:20.616+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:54:20.617+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:54:20.617+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:54:20.847+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:54:20.869+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:54:20.868+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:54:20.885+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:54:20.885+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:54:20.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.292 seconds
+[2023-12-18T19:54:50.987+0000] {processor.py:157} INFO - Started process (PID=3334) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:54:50.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:54:50.989+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:54:50.988+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:54:51.215+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:54:51.237+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:54:51.237+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:54:51.253+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:54:51.252+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:54:51.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.285 seconds
+[2023-12-18T19:55:21.480+0000] {processor.py:157} INFO - Started process (PID=3352) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:55:21.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:55:21.482+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:55:21.482+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:55:21.711+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:55:21.728+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:55:21.727+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:55:21.743+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:55:21.743+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:55:21.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.291 seconds
+[2023-12-18T19:55:51.874+0000] {processor.py:157} INFO - Started process (PID=3370) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:55:51.876+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:55:51.877+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:55:51.877+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:55:52.150+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:55:52.172+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:55:52.171+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:55:52.193+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:55:52.192+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:55:52.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.340 seconds
+[2023-12-18T19:56:22.310+0000] {processor.py:157} INFO - Started process (PID=3387) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:56:22.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:56:22.312+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:56:22.312+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:56:22.556+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:56:22.577+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:56:22.576+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:56:22.594+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:56:22.593+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:56:22.616+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.308 seconds
+[2023-12-18T19:56:52.785+0000] {processor.py:157} INFO - Started process (PID=3405) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:56:52.786+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:56:52.787+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:56:52.787+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:56:53.033+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:56:53.054+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:56:53.054+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:56:53.072+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:56:53.072+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:56:53.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.305 seconds
+[2023-12-18T19:57:23.153+0000] {processor.py:157} INFO - Started process (PID=3423) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:57:23.154+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:57:23.155+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:57:23.155+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:57:23.389+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:57:23.410+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:57:23.409+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:57:23.427+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:57:23.426+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:57:23.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.291 seconds
+[2023-12-18T19:57:54.311+0000] {processor.py:157} INFO - Started process (PID=3441) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:57:54.312+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:57:54.313+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:57:54.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:57:54.576+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:57:54.597+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:57:54.597+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:57:54.614+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:57:54.614+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:57:54.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.323 seconds
+[2023-12-18T19:58:24.764+0000] {processor.py:157} INFO - Started process (PID=3459) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:58:24.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:58:24.766+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:58:24.766+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:58:25.068+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:58:25.104+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:58:25.102+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:58:25.132+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:58:25.132+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:58:25.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.401 seconds
+[2023-12-18T19:58:55.294+0000] {processor.py:157} INFO - Started process (PID=3477) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:58:55.295+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:58:55.296+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:58:55.296+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:58:55.538+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:58:55.560+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:58:55.559+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:58:55.577+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:58:55.576+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:58:55.592+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.301 seconds
+[2023-12-18T19:59:25.665+0000] {processor.py:157} INFO - Started process (PID=3495) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:59:25.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:59:25.667+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:59:25.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:59:25.904+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:59:25.925+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:59:25.924+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:59:25.944+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:59:25.944+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:59:25.960+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.299 seconds
+[2023-12-18T19:59:56.724+0000] {processor.py:157} INFO - Started process (PID=3513) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:59:56.725+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T19:59:56.726+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:59:56.726+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:59:56.963+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T19:59:56.982+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:59:56.981+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T19:59:56.996+0000] {logging_mixin.py:154} INFO - [2023-12-18T19:59:56.996+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T19:59:57.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.288 seconds
+[2023-12-18T20:00:27.323+0000] {processor.py:157} INFO - Started process (PID=3531) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:00:27.324+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:00:27.325+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:00:27.324+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:00:27.576+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:00:27.595+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:00:27.595+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:00:27.612+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:00:27.612+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:00:27.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.308 seconds
+[2023-12-18T20:00:58.060+0000] {processor.py:157} INFO - Started process (PID=3549) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:00:58.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:00:58.062+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:00:58.062+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:00:58.328+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:00:58.360+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:00:58.359+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:00:58.385+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:00:58.384+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:00:58.411+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.354 seconds
+[2023-12-18T20:01:28.597+0000] {processor.py:157} INFO - Started process (PID=3568) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:01:28.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:01:28.599+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:01:28.599+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:01:28.841+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:01:28.859+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:01:28.858+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:01:28.874+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:01:28.874+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:01:28.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.297 seconds
+[2023-12-18T20:01:58.985+0000] {processor.py:157} INFO - Started process (PID=3586) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:01:58.986+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:01:58.987+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:01:58.987+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:01:59.270+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:01:59.293+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:01:59.291+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:01:59.310+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:01:59.310+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:01:59.325+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.344 seconds
+[2023-12-18T20:02:29.515+0000] {processor.py:157} INFO - Started process (PID=3604) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:02:29.516+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:02:29.517+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:02:29.517+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:02:29.777+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:02:29.798+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:02:29.798+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:02:29.815+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:02:29.815+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:02:29.831+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.319 seconds
+[2023-12-18T20:02:59.901+0000] {processor.py:157} INFO - Started process (PID=3622) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:02:59.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:02:59.903+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:02:59.903+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:03:00.159+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:03:00.182+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:03:00.181+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:03:00.202+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:03:00.202+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:03:00.216+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.318 seconds
+[2023-12-18T20:03:30.444+0000] {processor.py:157} INFO - Started process (PID=3640) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:03:30.445+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:03:30.446+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:03:30.446+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:03:30.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:03:30.734+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:03:30.734+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:03:30.756+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:03:30.756+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:03:30.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.338 seconds
+[2023-12-18T20:04:01.101+0000] {processor.py:157} INFO - Started process (PID=3658) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:04:01.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:04:01.103+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:04:01.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:04:01.389+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:04:01.423+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:04:01.423+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:04:01.456+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:04:01.455+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:04:01.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.388 seconds
+[2023-12-18T20:04:32.260+0000] {processor.py:157} INFO - Started process (PID=3676) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:04:32.261+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:04:32.262+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:04:32.262+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:04:32.533+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:04:32.554+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:04:32.553+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:04:32.571+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:04:32.571+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:04:32.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.329 seconds
+[2023-12-18T20:05:03.224+0000] {processor.py:157} INFO - Started process (PID=3694) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:05:03.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:05:03.226+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:05:03.226+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:05:03.483+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:05:03.501+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:05:03.501+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:05:03.519+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:05:03.519+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:05:03.534+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.313 seconds
+[2023-12-18T20:05:33.826+0000] {processor.py:157} INFO - Started process (PID=3712) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:05:33.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:05:33.828+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:05:33.828+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:05:34.055+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:05:34.075+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:05:34.074+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:05:34.090+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:05:34.090+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:05:34.105+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.282 seconds
+[2023-12-18T20:06:04.310+0000] {processor.py:157} INFO - Started process (PID=3730) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:06:04.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:06:04.312+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:06:04.312+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:06:04.552+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:06:04.572+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:06:04.571+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:06:04.588+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:06:04.588+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:06:04.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.296 seconds
+[2023-12-18T20:06:34.859+0000] {processor.py:157} INFO - Started process (PID=3748) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:06:34.861+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:06:34.863+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:06:34.863+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:06:35.119+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:06:35.142+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:06:35.141+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:06:35.160+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:06:35.160+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:06:35.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.318 seconds
+[2023-12-18T20:07:05.571+0000] {processor.py:157} INFO - Started process (PID=3766) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:07:05.572+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:07:05.573+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:07:05.573+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:07:05.849+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:07:05.874+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:07:05.873+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:07:05.893+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:07:05.893+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:07:05.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.349 seconds
+[2023-12-18T20:07:35.994+0000] {processor.py:157} INFO - Started process (PID=3784) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:07:35.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:07:35.996+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:07:35.995+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:07:36.241+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:07:36.261+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:07:36.260+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:07:36.278+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:07:36.278+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:07:36.292+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.302 seconds
+[2023-12-18T20:08:06.389+0000] {processor.py:157} INFO - Started process (PID=3802) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:08:06.390+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:08:06.391+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:08:06.390+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:08:06.620+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:08:06.641+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:08:06.641+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:08:06.659+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:08:06.658+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:08:06.672+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.285 seconds
+[2023-12-18T20:08:36.928+0000] {processor.py:157} INFO - Started process (PID=3820) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:08:36.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:08:36.930+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:08:36.930+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:08:37.236+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:08:37.260+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:08:37.260+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:08:37.280+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:08:37.280+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:08:37.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.375 seconds
+[2023-12-18T20:09:08.083+0000] {processor.py:157} INFO - Started process (PID=3838) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:09:08.085+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:09:08.086+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:09:08.085+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:09:08.322+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:09:08.341+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:09:08.340+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:09:08.357+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:09:08.357+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:09:08.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.293 seconds
+[2023-12-18T20:09:38.619+0000] {processor.py:157} INFO - Started process (PID=3856) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:09:38.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:09:38.621+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:09:38.621+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:09:38.930+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:09:38.955+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:09:38.955+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:09:38.985+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:09:38.985+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:09:39.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.404 seconds
+[2023-12-18T20:10:09.248+0000] {processor.py:157} INFO - Started process (PID=3874) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:10:09.249+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:10:09.250+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:10:09.250+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:10:09.503+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:10:09.522+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:10:09.522+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:10:09.541+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:10:09.541+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:10:09.556+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.311 seconds
+[2023-12-18T20:10:39.748+0000] {processor.py:157} INFO - Started process (PID=3894) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:10:39.749+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:10:39.750+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:10:39.750+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:10:39.995+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:10:40.015+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:10:40.014+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:10:40.031+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:10:40.031+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:10:40.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.302 seconds
+[2023-12-18T20:11:10.162+0000] {processor.py:157} INFO - Started process (PID=3910) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:11:10.163+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:11:10.164+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:11:10.164+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:11:10.440+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:11:10.460+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:11:10.459+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:11:10.476+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:11:10.476+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:11:10.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.334 seconds
+[2023-12-18T20:11:40.581+0000] {processor.py:157} INFO - Started process (PID=3929) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:11:40.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:11:40.583+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:11:40.582+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:11:40.877+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:11:40.900+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:11:40.899+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:11:40.920+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:11:40.920+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:11:40.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.367 seconds
+[2023-12-18T20:12:11.142+0000] {processor.py:157} INFO - Started process (PID=3949) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:12:11.143+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:12:11.145+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:12:11.144+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:12:11.422+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:12:11.445+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:12:11.445+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:12:11.465+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:12:11.465+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:12:11.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.348 seconds
+[2023-12-18T20:12:42.460+0000] {processor.py:157} INFO - Started process (PID=3967) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:12:42.461+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:12:42.462+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:12:42.462+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:12:42.699+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:12:42.720+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:12:42.720+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:12:42.738+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:12:42.738+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:12:42.753+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.296 seconds
+[2023-12-18T20:13:13.010+0000] {processor.py:157} INFO - Started process (PID=3984) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:13:13.013+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:13:13.015+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:13:13.015+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:13:13.299+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:13:13.319+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:13:13.318+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:13:13.337+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:13:13.336+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:13:13.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.346 seconds
+[2023-12-18T20:13:43.457+0000] {processor.py:157} INFO - Started process (PID=4003) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:13:43.458+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:13:43.459+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:13:43.458+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:13:43.679+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:13:43.697+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:13:43.697+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:13:43.714+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:13:43.714+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:13:43.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.276 seconds
+[2023-12-18T20:14:13.821+0000] {processor.py:157} INFO - Started process (PID=4021) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:14:13.822+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:14:13.823+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:14:13.823+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:14:14.067+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:14:14.087+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:14:14.086+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:14:14.102+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:14:14.102+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:14:14.117+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.299 seconds
+[2023-12-18T20:14:45.005+0000] {processor.py:157} INFO - Started process (PID=4039) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:14:45.006+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:14:45.006+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:14:45.006+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:14:45.254+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:14:45.277+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:14:45.277+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:14:45.293+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:14:45.293+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:14:45.704+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.702 seconds
+[2023-12-18T20:15:16.594+0000] {processor.py:157} INFO - Started process (PID=4059) to work on /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:15:16.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/traffic_etl_storeToPostgres.py for tasks to queue
+[2023-12-18T20:15:16.596+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:15:16.595+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:15:16.828+0000] {processor.py:839} INFO - DAG(s) dict_keys(['traffic_etl_storeToPostgres']) retrieved from /opt/airflow/dags/traffic_etl_storeToPostgres.py
+[2023-12-18T20:15:16.848+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:15:16.846+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-18T20:15:16.864+0000] {logging_mixin.py:154} INFO - [2023-12-18T20:15:16.864+0000] {dag.py:3722} INFO - Setting next_dagrun for traffic_etl_storeToPostgres to 2023-12-18T19:43:48.066893+00:00, run_after=2023-12-19T19:43:48.066893+00:00
+[2023-12-18T20:15:16.881+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/traffic_etl_storeToPostgres.py took 0.290 seconds

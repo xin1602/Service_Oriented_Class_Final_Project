@@ -1,0 +1,32 @@
+[2023-12-12T19:00:28.779+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csvData_insert_postgresql.create_cctv_data_table manual__2023-12-12T19:00:27.034624+00:00 [queued]>
+[2023-12-12T19:00:28.786+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csvData_insert_postgresql.create_cctv_data_table manual__2023-12-12T19:00:27.034624+00:00 [queued]>
+[2023-12-12T19:00:28.787+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-12T19:00:28.797+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_cctv_data_table> on 2023-12-12 19:00:27.034624+00:00
+[2023-12-12T19:00:28.805+0000] {standard_task_runner.py:57} INFO - Started process 668 to run task
+[2023-12-12T19:00:28.808+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'csvData_insert_postgresql', 'create_cctv_data_table', 'manual__2023-12-12T19:00:27.034624+00:00', '--job-id', '171', '--raw', '--subdir', 'DAGS_FOLDER/csvData_insert_postgresql.py', '--cfg-path', '/tmp/tmpk1xtmed0']
+[2023-12-12T19:00:28.811+0000] {standard_task_runner.py:85} INFO - Job 171: Subtask create_cctv_data_table
+[2023-12-12T19:00:28.848+0000] {task_command.py:416} INFO - Running <TaskInstance: csvData_insert_postgresql.create_cctv_data_table manual__2023-12-12T19:00:27.034624+00:00 [running]> on host 870c4047aa24
+[2023-12-12T19:00:28.910+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='xin' AIRFLOW_CTX_DAG_ID='csvData_insert_postgresql' AIRFLOW_CTX_TASK_ID='create_cctv_data_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-12T19:00:27.034624+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-12T19:00:27.034624+00:00'
+[2023-12-12T19:00:28.912+0000] {sql.py:274} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS cctv_data_02 (
+                id SERIAL PRIMARY KEY,
+                location VARCHAR(255),
+                area VARCHAR(255),
+                longitude VARCHAR(20),
+                latitude VARCHAR(20)
+            );
+            
+[2023-12-12T19:00:28.919+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T19:00:28.926+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T19:00:28.961+0000] {sql.py:418} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS cctv_data_02 (
+                id SERIAL PRIMARY KEY,
+                location VARCHAR(255),
+                area VARCHAR(255),
+                longitude VARCHAR(20),
+                latitude VARCHAR(20)
+            );
+            , parameters: None
+[2023-12-12T19:00:28.973+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=csvData_insert_postgresql, task_id=create_cctv_data_table, execution_date=20231212T190027, start_date=20231212T190028, end_date=20231212T190028
+[2023-12-12T19:00:29.021+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T19:00:29.040+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
