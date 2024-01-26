@@ -38,16 +38,15 @@
 
 Airflow 自動化流程(全自動化、排程工作流)
 
+<img src='images/流程圖.png'> 
+
 1. 抓取資料(API、爬蟲) -> 資料清洗 -> 存成csv
 2. 存入資料庫
 3. 自動下載metabase的dashboard
 4. EMAIL傳送檔案
 
 
-<figure class="half">
-    <img src='images/流程圖.png'> 
-    <img src='images/airflow流程圖.png'> 
-</figure>
+
 
 
 <img src='images/實作流程.jpg'> 
