@@ -38,7 +38,7 @@
 
 Airflow 自動化流程(全自動化、排程工作流)
 
-<img src='images/流程圖.png'> 
+<img src='images/流程圖.jpg'> 
 
 1. 抓取資料(API、爬蟲) -> 資料清洗 -> 存成csv
 2. 存入資料庫
