@@ -1,6 +1,6 @@
 ## 1121 服務導向架構與計算 期末專案
 
-### 數據中台常見的開源軟體
+### 監控智能管理系統（Surveillance Intelligence Management System）
 
 ### 主題：在交通事故與犯罪多的區域，應該如何控管監視器？
 
