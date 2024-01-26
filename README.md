@@ -12,12 +12,12 @@
 5. Metabase：數據分析儀表板
 6. PowerBI：地圖視覺化呈現
 7. PostgreSQL：儲存數據
-
+<img src='images/使用工具.jpg'> 
 
 #### 二、主題
 問題：在交通事故與犯罪多的區域，萬一監視器壞掉或是此地根本沒有監視器怎麼辦？
 思考：有沒有一個可以回報監視器狀態以及交通事故、犯罪率多的區域與監視器位置行成一個地圖疊圖，可以有效地看出哪裡沒有監視器但卻需要監視器，又或是哪個區域為危險地區，監視器故障需要優先派人維修？
-
+<img src='images/主題.png'> 
 
 #### 三、使用資料集
 
@@ -29,18 +29,21 @@
 
 4. 監視器數據 https://www.twipcam.com/taoyuan/zhongli
 
-
+<img src='images/資料集.jpg'> 
 
 #### 四、實作流程
 
 Airflow 自動化流程(全自動化、排程工作流)
+
+<img src='images/流程圖.png'> 
+<img src='images/airflow流程圖.png'> 
 
 1. 抓取資料(API、爬蟲) -> 資料清洗 -> 存成csv
 2. 存入資料庫
 3. 自動下載metabase的dashboard
 4. EMAIL傳送檔案
 
-
+<img src='images/實作流程.jpg'> 
 
 
 #### 五、結論
