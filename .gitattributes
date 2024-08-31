@@ -18,7 +18,7 @@
 *.txt linguist-vendored
 *.yaml linguist-vendored
 
-*.py linguist-language=Pyth on
+*.py linguist-language="Pyth on"
 *.ipynb linguist-language=Python
-*.pbix linguist-language=Power BI
+*.pbix linguist-language="Power BI"
 *.sql linguist-language=PostgreSQL
